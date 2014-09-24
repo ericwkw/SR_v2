@@ -122,7 +122,7 @@ body {
 .copyright {
   position: relative;
   float: left;
-  z-index: 56;
+  z-index: 57;
   margin-left: 30px;
   font-family: Effra-Medium;
   font-size: 0.778em;
@@ -197,7 +197,7 @@ body {
   border-bottom-width: 1px;
   border-bottom-color: rgb(195, 195, 195);
   border-bottom-style: solid;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(247, 247, 247);
 }
 
 .lang {
@@ -302,7 +302,7 @@ body {
   top: 30px;
   left: 0;
   right: 0;
-  z-index: 57;
+  z-index: 56;
   margin-right: auto;
   margin-left: auto;
   font-family: Effra-Medium;
@@ -341,7 +341,7 @@ body {
   border-bottom-width: 1px;
   border-bottom-color: rgb(195, 195, 195);
   border-bottom-style: solid;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(247, 247, 247);
 }
 
 ._2 {
@@ -355,7 +355,7 @@ body {
   border-bottom-width: 1px;
   border-bottom-color: rgb(195, 195, 195);
   border-bottom-style: solid;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(247, 247, 247);
 }
 
 ._3 {
@@ -369,7 +369,7 @@ body {
   border-bottom-width: 1px;
   border-bottom-color: rgb(195, 195, 195);
   border-bottom-style: solid;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(247, 247, 247);
 }
 
 ._4 {
@@ -383,7 +383,7 @@ body {
   border-bottom-width: 1px;
   border-bottom-color: rgb(195, 195, 195);
   border-bottom-style: solid;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(247, 247, 247);
 }
 
 ._container {
@@ -451,7 +451,7 @@ body {
 
 ._text-16 {
   float: left;
-  margin-left: 42px;
+  margin-left: 54px;
   font-family: Effra-Medium;
   font-size: 0.778em;
   font-weight: normal;

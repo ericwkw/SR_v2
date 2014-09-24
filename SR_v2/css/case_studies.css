@@ -1,5 +1,5 @@
 body {
-  background-color: #f4f4f4;
+  background-color: #ececec;
   font-family: Effra;
   font-size: 1.063em;
   font-weight: normal;
@@ -86,7 +86,7 @@ body {
 .copyright {
   position: relative;
   float: left;
-  z-index: 41;
+  z-index: 42;
   margin-left: 30px;
   font-family: Effra-Medium;
   font-size: 0.824em;
@@ -281,7 +281,7 @@ body {
   top: 30px;
   left: 0;
   right: 0;
-  z-index: 42;
+  z-index: 41;
   margin-right: auto;
   margin-left: auto;
   font-family: Effra-Medium;
@@ -359,7 +359,7 @@ body {
 
 ._text-5 {
   float: left;
-  margin-left: 42px;
+  margin-left: 54px;
   font-family: Effra-Medium;
   font-size: 0.824em;
   line-height: 1.38;

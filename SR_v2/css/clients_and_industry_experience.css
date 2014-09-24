@@ -96,12 +96,13 @@ body {
   width: 100%;
   padding-top: 40px;
   padding-bottom: 80px;
+  background-color: #ececec;
 }
 
 .copyright {
   position: relative;
   float: left;
-  z-index: 41;
+  z-index: 42;
   margin-left: 30px;
   font-family: Effra-Medium;
   font-size: 0.824em;
@@ -261,7 +262,7 @@ body {
   width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(247, 247, 247);
 }
 
 .section-intro .btn {
@@ -306,7 +307,7 @@ body {
   top: 30px;
   left: 0;
   right: 0;
-  z-index: 42;
+  z-index: 41;
   margin-right: auto;
   margin-left: auto;
   font-family: Effra-Medium;
@@ -427,7 +428,7 @@ body {
 
 ._text-6 {
   float: left;
-  margin-left: 42px;
+  margin-left: 54px;
   font-family: Effra-Medium;
   font-size: 0.824em;
   font-weight: normal;
