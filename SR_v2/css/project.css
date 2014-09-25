@@ -1,16 +1,13 @@
 body {
   background-color: #f4f4f4;
-  font-family: Effra;
-  font-size: 1.125em;
-  font-weight: 400;
-  line-height: 1.5;
+  font: 400 1.125em/1.5 Effra;
   color: #222222;
 }
 
 .banner {
   position: relative;
   float: left;
-  z-index: 49;
+  z-index: 55;
   width: 100%;
   height: 700px;
   background-color: rgb(204, 204, 204);
@@ -23,7 +20,6 @@ body {
 }
 
 .btn {
-  float: left;
   font-weight: normal;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -33,22 +29,20 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 20;
+  z-index: 26;
   width: 38.4%;
   height: 300px;
-  margin-top: 50px;
-  margin-left: 10%;
+  margin: 50px 0 0 10%;
   background-color: rgb(204, 204, 204);
 }
 
 .chart-2 {
   position: relative;
   float: left;
-  z-index: 19;
+  z-index: 25;
   width: 38.4010416666%;
   height: 300px;
-  margin-top: 50px;
-  margin-left: 3.19792%;
+  margin: 50px 0 0 3.19792%;
   background-color: rgb(204, 204, 204);
 }
 
@@ -62,23 +56,15 @@ body {
 }
 
 .contact .btn {
+  float: left;
   clear: both;
   width: 25.6%;
   min-width: 300px;
   margin-left: 37.2%;
-  padding-top: 13px;
-  padding-right: 25px;
-  padding-bottom: 15px;
-  padding-left: 25px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
+  padding: 13px 25px 15px;
+  border-radius: 8px;
   background-color: rgb(251, 104, 27);
   box-shadow: 0 3px 0 rgb(147, 63, 19);
-  font-family: Effra-Medium;
-  font-size: 1em;
-  line-height: 1.2;
 }
 
 .contact-1 {
@@ -115,19 +101,16 @@ body {
 
 .content {
   float: left;
-  width: 45.3333333333%;
+  width: 52.2666666666%;
   margin-left: 23.86667%;
 }
 
 .copyright {
   position: relative;
   float: left;
-  z-index: 57;
+  z-index: 1;
   margin-left: 30px;
-  font-family: Effra-Medium;
-  font-size: 0.778em;
-  font-weight: normal;
-  line-height: 1.38;
+  font: normal 0.778em/1.38 Effra-Medium;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -150,27 +133,17 @@ body {
   float: right;
   width: 11.2%;
   min-width: 168px;
-  margin-top: 12px;
-  margin-right: 20px;
+  margin: 12px 20px 0 0;
 }
 
 .function .contact {
   width: 100px;
   height: 46px;
   margin-left: 12.58371%;
-  padding-top: 14px;
-  padding-right: 14px;
-  padding-bottom: 14px;
-  padding-left: 14px;
-  border-top-left-radius: 22px;
-  border-top-right-radius: 22px;
-  border-bottom-right-radius: 22px;
-  border-bottom-left-radius: 22px;
+  padding: 14px;
+  border-radius: 22px;
   background-color: rgb(255, 255, 255);
-  font-family: Effra-Bold;
-  font-size: 0.667em;
-  font-weight: normal;
-  line-height: 1.38;
+  font: normal 0.667em/1.38 Effra-Bold;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -182,7 +155,7 @@ body {
   clear: both;
   width: 100%;
   height: 480px;
-  margin-top: 60px;
+  margin-top: 87px;
   background-color: rgb(204, 204, 204);
 }
 
@@ -190,13 +163,11 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 45;
+  z-index: 51;
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom-width: 1px;
-  border-bottom-color: rgb(195, 195, 195);
-  border-bottom-style: solid;
+  border-bottom: 1px solid rgb(195, 195, 195);
   background-color: rgb(247, 247, 247);
 }
 
@@ -204,26 +175,9 @@ body {
   float: left;
   width: 46px;
   height: 46px;
-  padding-top: 13px;
-  padding-right: 14px;
-  padding-bottom: 14px;
-  padding-left: 14px;
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
-  border-top-color: rgba(244, 244, 244, 0.43);
-  border-right-color: rgba(244, 244, 244, 0.43);
-  border-bottom-color: rgba(244, 244, 244, 0.43);
-  border-left-color: rgba(244, 244, 244, 0.43);
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-top-left-radius: 46px;
-  border-top-right-radius: 46px;
-  border-bottom-right-radius: 46px;
-  border-bottom-left-radius: 46px;
+  padding: 13px 14px 14px;
+  border: 1px solid rgba(244, 244, 244, 0.43);
+  border-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-size: 0.778em;
   font-weight: Bold;
@@ -237,10 +191,7 @@ body {
 .location {
   float: left;
   padding-bottom: 8px;
-  font-family: Effra-Medium;
-  font-size: 1.111em;
-  font-weight: normal;
-  line-height: 1.2;
+  font: normal 1.111em/1.2 Effra-Medium;
   color: rgb(255, 255, 255);
 }
 
@@ -250,43 +201,22 @@ body {
   top: 18px;
   left: 0;
   right: 0;
-  z-index: 53;
+  z-index: 59;
   width: 88px;
   height: auto;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
   overflow: hidden;
 }
 
 .menu {
+  float: left;
   width: 100px;
   height: 46px;
-  margin-top: 12px;
-  margin-left: 20px;
-  padding-top: 14px;
-  padding-right: 14px;
-  padding-bottom: 14px;
-  padding-left: 14px;
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
-  border-top-color: rgba(244, 244, 244, 0.43);
-  border-right-color: rgba(244, 244, 244, 0.43);
-  border-bottom-color: rgba(244, 244, 244, 0.43);
-  border-left-color: rgba(244, 244, 244, 0.43);
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-top-left-radius: 46px;
-  border-top-right-radius: 46px;
-  border-bottom-right-radius: 46px;
-  border-bottom-left-radius: 46px;
+  margin: 12px 0 0 20px;
+  padding: 14px;
+  border: 1px solid rgba(244, 244, 244, 0.43);
+  border-radius: 46px;
   background-color: rgb(47, 62, 71);
-  font-family: Effra-Bold;
-  font-size: 0.667em;
-  line-height: 1.38;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -302,24 +232,16 @@ body {
   top: 30px;
   left: 0;
   right: 0;
-  z-index: 56;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Effra-Medium;
-  font-size: 0.778em;
-  font-weight: normal;
-  line-height: 1.38;
-  text-align: center;
+  margin: 0 auto;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: rgb(255, 255, 255);
 }
 
 .top-menu {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 55;
+  z-index: 61;
   width: 100%;
   height: 72px;
   background-color: rgb(47, 62, 71);
@@ -334,13 +256,11 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 38;
+  z-index: 44;
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom-width: 1px;
-  border-bottom-color: rgb(195, 195, 195);
-  border-bottom-style: solid;
+  border-bottom: 1px solid rgb(195, 195, 195);
   background-color: rgb(247, 247, 247);
 }
 
@@ -348,13 +268,11 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 33;
+  z-index: 39;
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom-width: 1px;
-  border-bottom-color: rgb(195, 195, 195);
-  border-bottom-style: solid;
+  border-bottom: 1px solid rgb(195, 195, 195);
   background-color: rgb(247, 247, 247);
 }
 
@@ -362,13 +280,11 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 28;
+  z-index: 34;
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom-width: 1px;
-  border-bottom-color: rgb(195, 195, 195);
-  border-bottom-style: solid;
+  border-bottom: 1px solid rgb(195, 195, 195);
   background-color: rgb(247, 247, 247);
 }
 
@@ -376,13 +292,11 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 23;
+  z-index: 29;
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom-width: 1px;
-  border-bottom-color: rgb(195, 195, 195);
-  border-bottom-style: solid;
+  border-bottom: 1px solid rgb(195, 195, 195);
   background-color: rgb(247, 247, 247);
 }
 
@@ -398,19 +312,11 @@ body {
 }
 
 .contact ._text {
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
   padding-bottom: 12px;
-  font-family: Effra-Light;
-  font-size: 2em;
-  font-weight: normal;
-  line-height: 1.38;
+  font: normal 2em/1.38 Effra-Light;
   text-align: center;
   color: rgb(255, 255, 255);
-}
-
-.content ._text {
-  float: left;
 }
 
 .brief ._text,
@@ -421,7 +327,7 @@ body {
 ._container-1 {
   float: left;
   clear: both;
-  z-index: 61;
+  z-index: 5;
   width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -430,7 +336,7 @@ body {
 
 ._container-2 {
   float: right;
-  z-index: 60;
+  z-index: 4;
   width: 15.2666666666%;
   min-width: 229px;
   margin-right: 30px;
@@ -439,10 +345,7 @@ body {
 ._text-15 {
   float: left;
   margin-left: 63px;
-  font-family: Effra-Medium;
-  font-size: 0.778em;
-  font-weight: normal;
-  line-height: 1.38;
+  font: normal 0.778em/1.38 Effra-Medium;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -452,10 +355,7 @@ body {
 ._text-16 {
   float: left;
   margin-left: 54px;
-  font-family: Effra-Medium;
-  font-size: 0.778em;
-  font-weight: normal;
-  line-height: 1.38;
+  font: normal 0.778em/1.38 Effra-Medium;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -470,24 +370,19 @@ body {
 }
 
 .client-detatils ._text-2 {
-  margin-top: 5px;
-  margin-left: 10px;
+  margin: 5px 0 0 10px;
   font-family: Effra-Light;
   font-size: 0.944em;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-.brief ._text-3,
 .content ._text-11,
 .content ._text-7,
-.content ._text-9,
-.solution ._text-5 {
+.content ._text-9 {
+  float: left;
   padding-bottom: 12px;
-  font-family: Effra-Light;
-  font-size: 2em;
-  font-weight: normal;
-  line-height: 1.38;
+  font: normal 2em/1.38 Effra-Light;
   text-align: center;
   color: rgb(34, 34, 34);
 }
@@ -495,20 +390,26 @@ body {
 .content ._text-10,
 .content ._text-12,
 .content ._text-8 {
+  float: left;
   clear: both;
-  width: 115.294117647%;
+  width: 100%;
   font-size: 1em;
   font-weight: 400;
   color: #222222;
 }
 
 .content ._text-13 {
-  margin-left: 30.58824%;
+  margin: 0 auto;
   padding-bottom: 12px;
-  font-family: Effra-Light;
-  font-size: 2em;
-  font-weight: normal;
-  line-height: 1.38;
+  font: normal 2em/1.38 Effra-Light;
+  text-align: center;
+  color: rgb(34, 34, 34);
+}
+
+.brief ._text-3,
+.solution ._text-5 {
+  padding-bottom: 12px;
+  font: normal 2em/1.38 Effra-Light;
   text-align: center;
   color: rgb(34, 34, 34);
 }
