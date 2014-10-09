@@ -4,15 +4,6 @@ body {
   color: #0b0b0b;
 }
 
-.banner {
-  position: relative;
-  float: left;
-  z-index: 30;
-  width: 100%;
-  height: 700px;
-  background-color: rgb(204, 204, 204);
-}
-
 .brief {
   float: left;
   width: 38.4%;
@@ -50,21 +41,6 @@ body {
   height: 300px;
   margin: 50px 0 0 3.19792%;
   background-color: rgb(204, 204, 204);
-}
-
-.client {
-  float: left;
-  line-height: 1.1;
-  color: rgb(255, 255, 255);
-}
-
-.client-detatils {
-  float: left;
-  width: 100%;
-  margin-top: 72px;
-  padding-top: 28px;
-  padding-bottom: 18px;
-  background-color: rgb(55, 70, 78);
 }
 
 .contact {
@@ -106,15 +82,7 @@ body {
 }
 
 .intro {
-  position: relative;
   float: left;
-  clear: both;
-  z-index: 26;
-  width: 100%;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: 1px solid rgb(195, 195, 195);
-  background-color: rgb(224, 226, 227);
 }
 
 .lang {
@@ -135,7 +103,7 @@ body {
   top: 18px;
   left: 0;
   right: 0;
-  z-index: 34;
+  z-index: 37;
   width: 88px;
   height: auto;
   margin: 0 auto;
@@ -176,56 +144,20 @@ body {
 }
 
 .top-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 36;
+  position: relative;
+  float: left;
+  clear: both;
   width: 100%;
   height: 72px;
   background-color: rgb(47, 62, 71);
 }
 
-._1 {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 19;
-  width: 100%;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: 1px solid rgb(195, 195, 195);
-  background-color: rgb(224, 226, 227);
-}
-
-._2 {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 14;
-  width: 100%;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: 1px solid rgb(195, 195, 195);
-  background-color: rgb(224, 226, 227);
-}
-
-._3 {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 9;
-  width: 100%;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: 1px solid rgb(195, 195, 195);
-  background-color: rgb(224, 226, 227);
-}
-
+._1,
+._2,
+._3,
 ._4 {
-  position: relative;
   float: left;
   clear: both;
-  z-index: 4;
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -233,15 +165,18 @@ body {
   background-color: rgb(224, 226, 227);
 }
 
-._text {
-  padding-bottom: 12px;
-  font: 1.15em/1.1 Effra-Medium;
-  color: rgb(34, 34, 34);
+._container {
+  float: left;
+  width: 100%;
+  background-color: rgb(55, 70, 78);
 }
 
 .main-4 ._text {
   margin: 0 auto;
+  padding-bottom: 12px;
+  font: 1.15em/1.1 Effra-Medium;
   text-align: center;
+  color: rgb(34, 34, 34);
 }
 
 .brief ._text,
@@ -250,20 +185,63 @@ body {
 .main_3 ._text,
 .solution ._text {
   float: left;
+  padding-bottom: 12px;
+  font: 1.15em/1.1 Effra-Medium;
+  color: rgb(34, 34, 34);
 }
 
-.client-1 {
-  margin-left: 10%;
+.intro-1 {
+  width: 80%;
+  margin: 172px 0 0 10%;
+  padding-bottom: 200px;
+}
+
+.intro-2 {
+  clear: both;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgb(195, 195, 195);
+  background-color: rgb(224, 226, 227);
+}
+
+.intro ._text-1 {
+  float: left;
   padding-bottom: 13px;
-  font-family: Effra-Regular;
-  font-size: 1.05em;
+  font: Regular 3em/1.1 Effra;
+  color: rgb(255, 255, 255);
 }
 
-.client-2 {
-  margin: 5px 0 0 10px;
-  font-size: 0.85em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+.intro ._text-2 {
+  float: left;
+  clear: both;
+  width: 60.6666666666%;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.4em;
+  line-height: 1.4;
+  color: rgb(195, 195, 195);
+}
+
+.intro ._text-3 {
+  display: block;
+  float: left;
+  clear: both;
+  margin: 20px 0 0 0.26823%;
+  border-bottom: 2px solid rgb(251, 104, 27);
+  font: Regular 1.4em/1.15 Effra;
+  color: rgb(255, 255, 255);
+}
+
+.intro ._text-4,
+.intro ._text-5 {
+  display: block;
+  float: left;
+  clear: both;
+  margin: 12px 0 0 0.26823%;
+  border-bottom: 2px solid rgb(251, 104, 27);
+  font: Regular 1.4em/1.15 Effra;
+  color: rgb(255, 255, 255);
 }
 
 .btn span {
