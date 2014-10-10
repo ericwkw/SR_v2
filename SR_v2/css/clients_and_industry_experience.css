@@ -1,10 +1,13 @@
 body {
   background-color: rgb(255, 255, 255);
-  font: normal 1.25em/1.45 Effra-Light;
+  font-family: Effra-Light;
+  font-size: 1.25em;
+  font-weight: normal;
+  line-height: 1.45;
   color: #0b0b0b;
 }
 
-.banner {
+.banner-1 {
   position: relative;
   float: left;
   z-index: 15;
@@ -13,39 +16,156 @@ body {
   background-color: #37464e;
 }
 
-.btn {
+.btn-1 {
   float: left;
+  width: 100px;
+  height: 46px;
+  margin-top: 12px;
+  margin-left: 20px;
+  padding-top: 14px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  padding-left: 14px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgba(244, 244, 244, 0.43);
+  border-right-color: rgba(244, 244, 244, 0.43);
+  border-bottom-color: rgba(244, 244, 244, 0.43);
+  border-left-color: rgba(244, 244, 244, 0.43);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-left-radius: 46px;
+  border-top-right-radius: 46px;
+  border-bottom-right-radius: 46px;
+  border-bottom-left-radius: 46px;
+  background-color: rgb(47, 62, 71);
+  font-family: Effra-Bold;
+  font-size: 0.6em;
+  line-height: 1.38;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
 }
 
-.client {
+.btn-2 {
+  float: left;
+  width: 46px;
+  height: 46px;
+  padding-top: 13px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  padding-left: 14px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgba(244, 244, 244, 0.43);
+  border-right-color: rgba(244, 244, 244, 0.43);
+  border-bottom-color: rgba(244, 244, 244, 0.43);
+  border-left-color: rgba(244, 244, 244, 0.43);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-left-radius: 46px;
+  border-top-right-radius: 46px;
+  border-bottom-right-radius: 46px;
+  border-bottom-left-radius: 46px;
+  background-color: rgb(47, 62, 71);
+  font-family: Effra;
+  font-size: 0.7em;
+  font-weight: Bold;
+  line-height: 1.38;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}
+
+.btn-3 {
+  float: left;
+  width: 100px;
+  height: 46px;
+  margin-left: 12.58371%;
+  padding-top: 14px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  padding-left: 14px;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+  background-color: rgb(255, 255, 255);
+  font-family: Effra-Bold;
+  font-size: 0.6em;
+  line-height: 1.38;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(47, 62, 71);
+}
+
+.btn-4 {
+  float: left;
+  min-width: 300px;
+  margin-left: 4.36875%;
+  padding-top: 13px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  background-color: rgb(251, 104, 27);
+  box-shadow: 0 3px 0 rgb(147, 63, 19);
+  font-family: Effra;
+  font-size: 0.9em;
+  font-weight: Medium;
+  line-height: 1.2;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.client-1 {
   float: left;
   width: 14.0791666666%;
   height: 211px;
+  margin-left: 10%;
   background-color: rgb(247, 247, 247);
 }
 
-.clients {
+.client-2,
+.client-3,
+.client-4 {
+  float: left;
+  width: 14.0791666666%;
+  height: 211px;
+  margin-left: 2.4%;
+  background-color: rgb(247, 247, 247);
+}
+
+.client-5 {
+  float: left;
+  width: 14.0791666666%;
+  height: 211px;
+  margin-left: 2.40313%;
+  background-color: rgb(247, 247, 247);
+}
+
+.clients-1 {
   float: left;
   clear: both;
   width: 100%;
   margin-top: 20px;
 }
 
-.contact {
-  width: 100px;
-  height: 46px;
-  margin-left: 12.58371%;
-  padding: 14px;
-  border-radius: 22px;
-  background-color: rgb(255, 255, 255);
-  font: 0.6em/1.38 Effra-Bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: rgb(47, 62, 71);
-}
-
-.content-container {
+.content-container-1 {
   position: relative;
   float: left;
   clear: both;
@@ -56,35 +176,26 @@ body {
   background-color: rgb(204, 207, 209);
 }
 
-.function {
+.function-1 {
   float: right;
   width: 11.2%;
   min-width: 168px;
-  margin: 12px 20px 0 0;
+  margin-top: 12px;
+  margin-right: 20px;
 }
 
-.label-head {
+.label-head-1 {
   float: left;
   margin-left: 10%;
   padding-bottom: 5px;
-  font: Regular 0.7em/1.2 Effra;
+  font-family: Effra;
+  font-size: 0.7em;
+  font-weight: Regular;
+  line-height: 1.2;
   color: rgb(34, 34, 34);
 }
 
-.lang {
-  width: 46px;
-  height: 46px;
-  padding: 13px 14px 14px;
-  border: 1px solid rgba(244, 244, 244, 0.43);
-  border-radius: 46px;
-  background-color: rgb(47, 62, 71);
-  font: Bold 0.7em/1.38 Effra;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: rgb(255, 255, 255);
-}
-
-.logo {
+.logo-1 {
   display: block;
   position: absolute;
   top: 18px;
@@ -93,25 +204,12 @@ body {
   z-index: 19;
   width: 88px;
   height: auto;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
   overflow: hidden;
 }
 
-.menu {
-  width: 100px;
-  height: 46px;
-  margin: 12px 0 0 20px;
-  padding: 14px;
-  border: 1px solid rgba(244, 244, 244, 0.43);
-  border-radius: 46px;
-  background-color: rgb(47, 62, 71);
-  font: 0.6em/1.38 Effra-Bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: rgb(255, 255, 255);
-}
-
-.section-intro {
+.section-intro-1 {
   position: relative;
   float: left;
   clear: both;
@@ -122,18 +220,7 @@ body {
   background-color: #e0e2e3;
 }
 
-.section-intro .btn {
-  min-width: 300px;
-  margin-left: 4.36875%;
-  padding: 13px 25px 15px;
-  border-radius: 2px;
-  background-color: rgb(251, 104, 27);
-  box-shadow: 0 3px 0 rgb(147, 63, 19);
-  font: Medium 0.9em/1.2 Effra;
-  color: rgb(255, 255, 255);
-}
-
-.selector-bar {
+.selector-bar-1 {
   position: relative;
   float: left;
   clear: both;
@@ -144,15 +231,18 @@ body {
   background-color: #cccfd1;
 }
 
-.selectors {
+.selectors-1 {
   float: left;
   margin-left: 1%;
   padding-bottom: 5px;
-  font: Regular 0.7em/1.2 Effra;
+  font-family: Effra;
+  font-size: 0.7em;
+  font-weight: Regular;
+  line-height: 1.2;
   color: rgb(34, 34, 34);
 }
 
-.top-menu {
+.top-menu-1 {
   position: fixed;
   top: 0;
   left: 0;
@@ -162,45 +252,34 @@ body {
   background-color: rgb(47, 62, 71);
 }
 
-._1 {
-  margin-left: 10%;
-}
-
-._2,
-._3,
-._4 {
-  margin-left: 2.4%;
-}
-
-._5 {
-  margin-left: 2.40313%;
-}
-
-._text {
+._text-1 {
   float: left;
-}
-
-.banner ._text {
   width: 100%;
   margin-top: 188px;
   padding-bottom: 13px;
-  font: 3em/1.1 Effra-Bold;
+  font-family: Effra-Bold;
+  font-size: 3em;
+  line-height: 1.1;
   text-align: center;
   color: rgb(255, 255, 255);
 }
 
-.content-container ._text {
-  margin-left: 10%;
-  padding-bottom: 8px;
-  font: 0.85em/1.2 Effra-Medium;
-  color: #333333;
-}
-
-.section-intro ._text {
+._text-2 {
+  float: left;
   width: 49.4041666666%;
   margin-left: 13.09167%;
   font-size: 1em;
   color: #0b0b0b;
+}
+
+._text-3 {
+  float: left;
+  margin-left: 10%;
+  padding-bottom: 8px;
+  font-family: Effra-Medium;
+  font-size: 0.85em;
+  line-height: 1.2;
+  color: #333333;
 }
 
 .btn span {

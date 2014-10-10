@@ -1,10 +1,13 @@
 body {
   background-color: rgb(0, 0, 0);
-  font: normal 1.25em/1.45 Effra-Light;
+  font-family: Effra-Light;
+  font-size: 1.25em;
+  font-weight: normal;
+  line-height: 1.45;
   color: #0b0b0b;
 }
 
-.banner {
+.banner-1 {
   position: relative;
   float: left;
   z-index: 30;
@@ -13,52 +16,151 @@ body {
   background-color: rgb(204, 204, 204);
 }
 
-.brief {
+.brief-1 {
   float: left;
   width: 38.4%;
   margin-left: 10%;
 }
 
-.btn {
+.btn-1 {
   float: left;
+  width: 100px;
   height: 46px;
+  margin-top: 12px;
+  margin-left: 20px;
+  padding-top: 14px;
   padding-right: 14px;
   padding-bottom: 14px;
   padding-left: 14px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgba(244, 244, 244, 0.43);
+  border-right-color: rgba(244, 244, 244, 0.43);
+  border-bottom-color: rgba(244, 244, 244, 0.43);
+  border-left-color: rgba(244, 244, 244, 0.43);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-left-radius: 46px;
+  border-top-right-radius: 46px;
+  border-bottom-right-radius: 46px;
+  border-bottom-left-radius: 46px;
+  background-color: rgb(47, 62, 71);
+  font-family: Effra-Bold;
+  font-size: 0.6em;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
+  color: rgb(255, 255, 255);
 }
 
-.chart-1 {
+.btn-2 {
+  float: left;
+  width: 46px;
+  height: 46px;
+  padding-top: 13px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  padding-left: 14px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgba(244, 244, 244, 0.43);
+  border-right-color: rgba(244, 244, 244, 0.43);
+  border-bottom-color: rgba(244, 244, 244, 0.43);
+  border-left-color: rgba(244, 244, 244, 0.43);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-left-radius: 46px;
+  border-top-right-radius: 46px;
+  border-bottom-right-radius: 46px;
+  border-bottom-left-radius: 46px;
+  background-color: rgb(47, 62, 71);
+  font-family: Effra;
+  font-size: 0.7em;
+  font-weight: Bold;
+  line-height: 1.38;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}
+
+.btn-3 {
+  float: left;
+  width: 100px;
+  height: 46px;
+  margin-left: 12.58371%;
+  padding-top: 14px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  padding-left: 14px;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+  background-color: rgb(255, 255, 255);
+  font-family: Effra-Bold;
+  font-size: 0.6em;
+  line-height: 1.38;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(47, 62, 71);
+}
+
+.chart-1-1 {
   position: relative;
   float: left;
   clear: both;
   z-index: 1;
   width: 38.4%;
   height: 300px;
-  margin: 50px 0 0 10%;
+  margin-top: 50px;
+  margin-left: 10%;
   background-color: rgb(204, 204, 204);
 }
 
-.chart-2 {
+.chart-2-1 {
   position: relative;
   float: left;
   z-index: 0;
   width: 38.4010416666%;
   height: 300px;
-  margin: 50px 0 0 3.19792%;
+  margin-top: 50px;
+  margin-left: 3.19792%;
   background-color: rgb(204, 204, 204);
 }
 
-.client {
+.client-1 {
   float: left;
+  margin-left: 10%;
+  padding-bottom: 13px;
+  font-family: Effra-Regular;
+  font-size: 1.05em;
   line-height: 1.1;
   color: rgb(255, 255, 255);
 }
 
-.client-detatils {
+.client-2 {
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 0.85em;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}
+
+.client-detatils-1 {
   float: left;
   width: 100%;
   margin-top: 72px;
@@ -67,36 +169,35 @@ body {
   background-color: rgb(55, 70, 78);
 }
 
-.contact {
-  width: 100px;
-  margin-left: 12.58371%;
-  padding-top: 14px;
-  border-radius: 22px;
-  background-color: rgb(255, 255, 255);
-  font-family: Effra-Bold;
-  font-size: 0.6em;
-  color: rgb(47, 62, 71);
-}
-
-.content {
+.content-1,
+.content-2 {
   float: left;
   clear: both;
   font-size: 1em;
   color: #0b0b0b;
 }
 
-.content-2 p {
-  margin-bottom: 1em;
+.content-3,
+.content-4,
+.content-5 {
+  float: left;
+  clear: both;
+  width: 100%;
+  font-size: 1em;
+  color: #0b0b0b;
 }
 
-.function {
+.function-1 {
   float: right;
   width: 11.2%;
   min-width: 168px;
-  margin: 12px 20px 0 0;
+  margin-top: 12px;
+  margin-right: 20px;
 }
 
-.img {
+.img-1,
+.img-2,
+.img-3 {
   float: left;
   clear: both;
   width: 100%;
@@ -105,7 +206,7 @@ body {
   background-color: rgb(204, 204, 204);
 }
 
-.intro {
+.intro-1 {
   position: relative;
   float: left;
   clear: both;
@@ -113,23 +214,13 @@ body {
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom: 1px solid rgb(195, 195, 195);
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(195, 195, 195);
+  border-bottom-style: solid;
   background-color: rgb(224, 226, 227);
 }
 
-.lang {
-  width: 46px;
-  padding-top: 13px;
-  border: 1px solid rgba(244, 244, 244, 0.43);
-  border-radius: 46px;
-  background-color: rgb(47, 62, 71);
-  font-family: Effra;
-  font-size: 0.7em;
-  font-weight: Bold;
-  color: rgb(255, 255, 255);
-}
-
-.logo {
+.logo-1 {
   display: block;
   position: absolute;
   top: 18px;
@@ -138,44 +229,27 @@ body {
   z-index: 34;
   width: 88px;
   height: auto;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
   overflow: hidden;
 }
 
-.main-4,
-.main_1,
-.main_2,
-.main_3 {
+.main-4-1,
+.main_1-1,
+.main_2-1,
+.main_3-1 {
   float: left;
   width: 52.2666666666%;
   margin-left: 23.86667%;
 }
 
-.main_1 .content,
-.main_2 .content,
-.main_3 .content {
-  width: 100%;
-}
-
-.menu {
-  width: 100px;
-  margin: 12px 0 0 20px;
-  padding-top: 14px;
-  border: 1px solid rgba(244, 244, 244, 0.43);
-  border-radius: 46px;
-  background-color: rgb(47, 62, 71);
-  font-family: Effra-Bold;
-  font-size: 0.6em;
-  color: rgb(255, 255, 255);
-}
-
-.solution {
+.solution-1 {
   float: left;
   width: 38.4%;
   margin-left: 3.2%;
 }
 
-.top-menu {
+.top-menu-1 {
   position: fixed;
   top: 0;
   left: 0;
@@ -185,7 +259,7 @@ body {
   background-color: rgb(47, 62, 71);
 }
 
-._1 {
+._1-1 {
   position: relative;
   float: left;
   clear: both;
@@ -193,11 +267,13 @@ body {
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom: 1px solid rgb(195, 195, 195);
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(195, 195, 195);
+  border-bottom-style: solid;
   background-color: rgb(224, 226, 227);
 }
 
-._2 {
+._2-1 {
   position: relative;
   float: left;
   clear: both;
@@ -205,11 +281,13 @@ body {
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom: 1px solid rgb(195, 195, 195);
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(195, 195, 195);
+  border-bottom-style: solid;
   background-color: rgb(224, 226, 227);
 }
 
-._3 {
+._3-1 {
   position: relative;
   float: left;
   clear: both;
@@ -217,11 +295,13 @@ body {
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom: 1px solid rgb(195, 195, 195);
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(195, 195, 195);
+  border-bottom-style: solid;
   background-color: rgb(224, 226, 227);
 }
 
-._4 {
+._4-1 {
   position: relative;
   float: left;
   clear: both;
@@ -229,41 +309,34 @@ body {
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom: 1px solid rgb(195, 195, 195);
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(195, 195, 195);
+  border-bottom-style: solid;
   background-color: rgb(224, 226, 227);
 }
 
-._text {
+._text-1,
+._text-2,
+._text-3,
+._text-4,
+._text-5 {
+  float: left;
   padding-bottom: 12px;
-  font: 1.15em/1.1 Effra-Medium;
+  font-family: Effra-Medium;
+  font-size: 1.15em;
+  line-height: 1.1;
   color: rgb(34, 34, 34);
 }
 
-.main-4 ._text {
-  margin: 0 auto;
+._text-6 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 12px;
+  font-family: Effra-Medium;
+  font-size: 1.15em;
+  line-height: 1.1;
   text-align: center;
-}
-
-.brief ._text,
-.main_1 ._text,
-.main_2 ._text,
-.main_3 ._text,
-.solution ._text {
-  float: left;
-}
-
-.client-1 {
-  margin-left: 10%;
-  padding-bottom: 13px;
-  font-family: Effra-Regular;
-  font-size: 1.05em;
-}
-
-.client-2 {
-  margin: 5px 0 0 10px;
-  font-size: 0.85em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  color: rgb(34, 34, 34);
 }
 
 .btn span {

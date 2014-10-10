@@ -1,10 +1,13 @@
 body {
   background-color: #ececec;
-  font: normal 1.438em/1.1 Effra-Medium;
+  font-family: Effra-Medium;
+  font-size: 1.438em;
+  font-weight: normal;
+  line-height: 1.1;
   color: rgb(34, 34, 34);
 }
 
-.banner {
+.banner-1 {
   position: relative;
   float: left;
   z-index: 15;
@@ -13,30 +16,101 @@ body {
   background-color: rgb(55, 70, 78);
 }
 
-.btn {
+.btn-1 {
   float: left;
+  width: 100px;
   height: 46px;
+  margin-top: 12px;
+  margin-left: 20px;
+  padding-top: 14px;
   padding-right: 14px;
   padding-bottom: 14px;
   padding-left: 14px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgba(244, 244, 244, 0.43);
+  border-right-color: rgba(244, 244, 244, 0.43);
+  border-bottom-color: rgba(244, 244, 244, 0.43);
+  border-left-color: rgba(244, 244, 244, 0.43);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-left-radius: 46px;
+  border-top-right-radius: 46px;
+  border-bottom-right-radius: 46px;
+  border-bottom-left-radius: 46px;
+  background-color: rgb(47, 62, 71);
+  font-family: Effra-Bold;
+  font-size: 0.522em;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
+  color: rgb(255, 255, 255);
 }
 
-.contact {
+.btn-2 {
+  float: left;
+  width: 46px;
+  height: 46px;
+  padding-top: 13px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  padding-left: 14px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgba(244, 244, 244, 0.43);
+  border-right-color: rgba(244, 244, 244, 0.43);
+  border-bottom-color: rgba(244, 244, 244, 0.43);
+  border-left-color: rgba(244, 244, 244, 0.43);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-left-radius: 46px;
+  border-top-right-radius: 46px;
+  border-bottom-right-radius: 46px;
+  border-bottom-left-radius: 46px;
+  background-color: rgb(47, 62, 71);
+  font-family: Effra;
+  font-size: 0.609em;
+  font-weight: Bold;
+  line-height: 1.38;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}
+
+.btn-3 {
+  float: left;
   width: 100px;
+  height: 46px;
   margin-left: 12.58371%;
   padding-top: 14px;
-  border-radius: 22px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  padding-left: 14px;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 22px;
   background-color: rgb(255, 255, 255);
   font-family: Effra-Bold;
   font-size: 0.522em;
+  line-height: 1.38;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   color: rgb(47, 62, 71);
 }
 
-.content-container {
+.content-container-1 {
   position: relative;
   float: left;
   clear: both;
@@ -47,41 +121,37 @@ body {
   background-color: rgb(224, 226, 227);
 }
 
-.function {
+.function-1 {
   float: right;
   width: 11.2%;
   min-width: 168px;
-  margin: 12px 20px 0 0;
+  margin-top: 12px;
+  margin-right: 20px;
 }
 
-.job-tag {
+.job-tag-1,
+.job-tag-2,
+.job-tag-3 {
   float: left;
   clear: both;
   padding-bottom: 5px;
-  font: Regular 0.609em/1.2 Effra;
+  font-family: Effra;
+  font-size: 0.609em;
+  font-weight: Regular;
+  line-height: 1.2;
   color: rgb(34, 34, 34);
 }
 
-.job-title {
+.job-title-1,
+.job-title-2,
+.job-title-3 {
   float: left;
   padding-bottom: 12px;
   font-size: 1em;
   color: rgb(34, 34, 34);
 }
 
-.lang {
-  width: 46px;
-  padding-top: 13px;
-  border: 1px solid rgba(244, 244, 244, 0.43);
-  border-radius: 46px;
-  background-color: rgb(47, 62, 71);
-  font-family: Effra;
-  font-size: 0.609em;
-  font-weight: Bold;
-  color: rgb(255, 255, 255);
-}
-
-.logo {
+.logo-1 {
   display: block;
   position: absolute;
   top: 18px;
@@ -90,46 +160,40 @@ body {
   z-index: 19;
   width: 88px;
   height: auto;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
   overflow: hidden;
 }
 
-.menu {
-  width: 100px;
-  margin: 12px 0 0 20px;
-  padding-top: 14px;
-  border: 1px solid rgba(244, 244, 244, 0.43);
-  border-radius: 46px;
-  background-color: rgb(47, 62, 71);
-  font-family: Effra-Bold;
-  font-size: 0.522em;
-  color: rgb(255, 255, 255);
-}
-
-.project-1 {
+.project-1-1 {
   float: left;
   width: 25.0666666666%;
   margin-left: 10%;
   background-color: rgb(222, 222, 222);
 }
 
-.project-2,
-.project-3 {
+.project-2-1,
+.project-3-1 {
   float: left;
   width: 25.0666666666%;
   margin-left: 2.4%;
   background-color: rgb(222, 222, 222);
 }
 
-.project-info {
+.project-info-1,
+.project-info-2,
+.project-info-3 {
   float: left;
   width: 100%;
   margin-top: 256px;
-  padding: 25px 30px;
+  padding-top: 25px;
+  padding-right: 30px;
+  padding-bottom: 25px;
+  padding-left: 30px;
   background-color: rgb(255, 255, 255);
 }
 
-.top-menu {
+.top-menu-1 {
   position: fixed;
   top: 0;
   left: 0;
@@ -139,11 +203,8 @@ body {
   background-color: rgb(47, 62, 71);
 }
 
-._text {
+._text-1 {
   float: left;
-}
-
-.banner ._text-1 {
   width: 100%;
   margin-top: 188px;
   padding-bottom: 13px;
@@ -153,10 +214,15 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.banner ._text-2 {
+._text-2 {
+  float: left;
   clear: both;
+  width: 100%;
   padding-bottom: 10px;
-  font: 1.217em/1.4 Effra-Light;
+  font-family: Effra-Light;
+  font-size: 1.217em;
+  line-height: 1.4;
+  text-align: center;
   color: rgb(195, 195, 195);
 }
 
