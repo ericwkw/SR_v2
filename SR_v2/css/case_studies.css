@@ -1,7 +1,7 @@
 body {
   background-color: #ececec;
   font-family: Effra-Medium;
-  font-size: 1.438em;
+  font-size: 2.063em;
   font-weight: normal;
   line-height: 1.1;
   color: rgb(34, 34, 34);
@@ -44,7 +44,7 @@ body {
   border-bottom-left-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-family: Effra-Bold;
-  font-size: 0.522em;
+  font-size: 0.364em;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
@@ -78,7 +78,7 @@ body {
   border-bottom-left-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-family: Effra;
-  font-size: 0.609em;
+  font-size: 0.424em;
   font-weight: Bold;
   line-height: 1.38;
   text-align: center;
@@ -102,7 +102,7 @@ body {
   border-bottom-left-radius: 22px;
   background-color: rgb(255, 255, 255);
   font-family: Effra-Bold;
-  font-size: 0.522em;
+  font-size: 0.364em;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
@@ -136,7 +136,7 @@ body {
   clear: both;
   padding-bottom: 5px;
   font-family: Effra;
-  font-size: 0.609em;
+  font-size: 0.424em;
   font-weight: Regular;
   line-height: 1.2;
   color: rgb(34, 34, 34);
@@ -146,7 +146,7 @@ body {
 .job-title-2,
 .job-title-3 {
   float: left;
-  padding-bottom: 12px;
+  padding-bottom: 30px;
   font-size: 1em;
   color: rgb(34, 34, 34);
 }
@@ -209,7 +209,7 @@ body {
   margin-top: 188px;
   padding-bottom: 13px;
   font-family: Effra-Bold;
-  font-size: 2.609em;
+  font-size: 1.667em;
   text-align: center;
   color: rgb(255, 255, 255);
 }
@@ -220,7 +220,7 @@ body {
   width: 100%;
   padding-bottom: 10px;
   font-family: Effra-Light;
-  font-size: 1.217em;
+  font-size: 0.848em;
   line-height: 1.4;
   text-align: center;
   color: rgb(195, 195, 195);

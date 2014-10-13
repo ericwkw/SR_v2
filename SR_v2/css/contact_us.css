@@ -296,7 +296,7 @@ body {
   clear: both;
   padding-bottom: 5px;
   font-size: 1.429em;
-  line-height: 1.45;
+  line-height: 1.8;
   color: #222222;
 }
 
@@ -371,9 +371,9 @@ body {
 .location-6,
 .location-8 {
   float: left;
-  padding-bottom: 12px;
+  padding-bottom: 30px;
   font-family: Effra-Medium;
-  font-size: 1.643em;
+  font-size: 2.357em;
   line-height: 1.1;
   color: rgb(34, 34, 34);
 }
@@ -428,7 +428,7 @@ body {
   margin-top: 188px;
   padding-bottom: 13px;
   font-family: Effra-Bold;
-  font-size: 4.286em;
+  font-size: 3.929em;
   line-height: 1.1;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -448,9 +448,9 @@ body {
 ._text-3 {
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 12px;
+  padding-bottom: 30px;
   font-family: Effra-Medium;
-  font-size: 1.643em;
+  font-size: 2.357em;
   line-height: 1.1;
   text-align: center;
   color: rgb(255, 255, 255);
