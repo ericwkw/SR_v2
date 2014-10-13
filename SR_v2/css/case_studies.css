@@ -7,7 +7,7 @@ body {
   color: rgb(34, 34, 34);
 }
 
-.banner-1 {
+.banner {
   position: relative;
   float: left;
   z-index: 15;
@@ -16,50 +16,72 @@ body {
   background-color: rgb(55, 70, 78);
 }
 
-.btn-1 {
+.btn {
   float: left;
-  width: 100px;
   height: 46px;
-  margin-top: 12px;
-  margin-left: 20px;
-  padding-top: 14px;
   padding-right: 14px;
   padding-bottom: 14px;
   padding-left: 14px;
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
-  border-top-color: rgba(244, 244, 244, 0.43);
-  border-right-color: rgba(244, 244, 244, 0.43);
-  border-bottom-color: rgba(244, 244, 244, 0.43);
-  border-left-color: rgba(244, 244, 244, 0.43);
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-top-left-radius: 46px;
-  border-top-right-radius: 46px;
-  border-bottom-right-radius: 46px;
-  border-bottom-left-radius: 46px;
-  background-color: rgb(47, 62, 71);
-  font-family: Effra-Bold;
-  font-size: 0.364em;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: rgb(255, 255, 255);
 }
 
-.btn-2 {
+.contact {
+  width: 100px;
+  margin-left: 12.58371%;
+  padding-top: 14px;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+  background-color: rgb(255, 255, 255);
+  font-family: Effra-Bold;
+  font-size: 0.364em;
+  color: rgb(47, 62, 71);
+}
+
+.content-container {
+  position: relative;
   float: left;
+  clear: both;
+  z-index: 12;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(224, 226, 227);
+}
+
+.function {
+  float: right;
+  width: 11.2%;
+  min-width: 168px;
+  margin-top: 12px;
+  margin-right: 20px;
+}
+
+.job-tag {
+  float: left;
+  clear: both;
+  padding-bottom: 5px;
+  font-family: Effra;
+  font-size: 0.424em;
+  font-weight: Regular;
+  line-height: 1.2;
+  color: rgb(34, 34, 34);
+}
+
+.job-title {
+  float: left;
+  padding-bottom: 30px;
+  font-size: 1em;
+  color: rgb(34, 34, 34);
+}
+
+.lang {
   width: 46px;
-  height: 46px;
   padding-top: 13px;
-  padding-right: 14px;
-  padding-bottom: 14px;
-  padding-left: 14px;
   border-top-width: 1px;
   border-right-width: 1px;
   border-bottom-width: 1px;
@@ -80,78 +102,10 @@ body {
   font-family: Effra;
   font-size: 0.424em;
   font-weight: Bold;
-  line-height: 1.38;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   color: rgb(255, 255, 255);
 }
 
-.btn-3 {
-  float: left;
-  width: 100px;
-  height: 46px;
-  margin-left: 12.58371%;
-  padding-top: 14px;
-  padding-right: 14px;
-  padding-bottom: 14px;
-  padding-left: 14px;
-  border-top-left-radius: 22px;
-  border-top-right-radius: 22px;
-  border-bottom-right-radius: 22px;
-  border-bottom-left-radius: 22px;
-  background-color: rgb(255, 255, 255);
-  font-family: Effra-Bold;
-  font-size: 0.364em;
-  line-height: 1.38;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: rgb(47, 62, 71);
-}
-
-.content-container-1 {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 12;
-  width: 100%;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: rgb(224, 226, 227);
-}
-
-.function-1 {
-  float: right;
-  width: 11.2%;
-  min-width: 168px;
-  margin-top: 12px;
-  margin-right: 20px;
-}
-
-.job-tag-1,
-.job-tag-2,
-.job-tag-3 {
-  float: left;
-  clear: both;
-  padding-bottom: 5px;
-  font-family: Effra;
-  font-size: 0.424em;
-  font-weight: Regular;
-  line-height: 1.2;
-  color: rgb(34, 34, 34);
-}
-
-.job-title-1,
-.job-title-2,
-.job-title-3 {
-  float: left;
-  padding-bottom: 30px;
-  font-size: 1em;
-  color: rgb(34, 34, 34);
-}
-
-.logo-1 {
+.logo {
   display: block;
   position: absolute;
   top: 18px;
@@ -165,24 +119,49 @@ body {
   overflow: hidden;
 }
 
-.project-1-1 {
+.menu {
+  width: 100px;
+  margin-top: 12px;
+  margin-left: 20px;
+  padding-top: 14px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgba(244, 244, 244, 0.43);
+  border-right-color: rgba(244, 244, 244, 0.43);
+  border-bottom-color: rgba(244, 244, 244, 0.43);
+  border-left-color: rgba(244, 244, 244, 0.43);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-left-radius: 46px;
+  border-top-right-radius: 46px;
+  border-bottom-right-radius: 46px;
+  border-bottom-left-radius: 46px;
+  background-color: rgb(47, 62, 71);
+  font-family: Effra-Bold;
+  font-size: 0.364em;
+  color: rgb(255, 255, 255);
+}
+
+.project-1 {
   float: left;
   width: 25.0666666666%;
   margin-left: 10%;
   background-color: rgb(222, 222, 222);
 }
 
-.project-2-1,
-.project-3-1 {
+.project-2,
+.project-3 {
   float: left;
   width: 25.0666666666%;
   margin-left: 2.4%;
   background-color: rgb(222, 222, 222);
 }
 
-.project-info-1,
-.project-info-2,
-.project-info-3 {
+.project-info {
   float: left;
   width: 100%;
   margin-top: 256px;
@@ -193,7 +172,7 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-.top-menu-1 {
+.top-menu {
   position: fixed;
   top: 0;
   left: 0;
@@ -203,26 +182,26 @@ body {
   background-color: rgb(47, 62, 71);
 }
 
-._text-1 {
+._text {
   float: left;
   width: 100%;
+  text-align: center;
+}
+
+.banner ._text-1 {
   margin-top: 188px;
   padding-bottom: 13px;
   font-family: Effra-Bold;
   font-size: 1.667em;
-  text-align: center;
   color: rgb(255, 255, 255);
 }
 
-._text-2 {
-  float: left;
+.banner ._text-2 {
   clear: both;
-  width: 100%;
   padding-bottom: 10px;
   font-family: Effra-Light;
   font-size: 0.848em;
   line-height: 1.4;
-  text-align: center;
   color: rgb(195, 195, 195);
 }
 

@@ -7,7 +7,7 @@ body {
   color: #0b0b0b;
 }
 
-.banner-1 {
+.banner {
   position: relative;
   float: left;
   z-index: 15;
@@ -16,8 +16,124 @@ body {
   background-color: #37464e;
 }
 
-.btn-1 {
+.btn {
   float: left;
+  text-align: center;
+}
+
+.client {
+  float: left;
+  width: 14.0791666666%;
+  height: 211px;
+  background-color: rgb(247, 247, 247);
+}
+
+.clients {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.contact {
+  width: 100px;
+  height: 46px;
+  margin-left: 12.58371%;
+  padding-top: 14px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  padding-left: 14px;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+  background-color: rgb(255, 255, 255);
+  font-family: Effra-Bold;
+  font-size: 0.6em;
+  line-height: 1.38;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(47, 62, 71);
+}
+
+.content-container {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 7;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  background-color: rgb(204, 207, 209);
+}
+
+.function {
+  float: right;
+  width: 11.2%;
+  min-width: 168px;
+  margin-top: 12px;
+  margin-right: 20px;
+}
+
+.label-head {
+  float: left;
+  margin-left: 10%;
+  padding-bottom: 5px;
+  font-family: Effra;
+  font-size: 0.7em;
+  font-weight: Regular;
+  line-height: 1.2;
+  color: rgb(34, 34, 34);
+}
+
+.lang {
+  width: 46px;
+  height: 46px;
+  padding-top: 13px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  padding-left: 14px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgba(244, 244, 244, 0.43);
+  border-right-color: rgba(244, 244, 244, 0.43);
+  border-bottom-color: rgba(244, 244, 244, 0.43);
+  border-left-color: rgba(244, 244, 244, 0.43);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-left-radius: 46px;
+  border-top-right-radius: 46px;
+  border-bottom-right-radius: 46px;
+  border-bottom-left-radius: 46px;
+  background-color: rgb(47, 62, 71);
+  font-family: Effra;
+  font-size: 0.7em;
+  font-weight: Bold;
+  line-height: 1.38;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 18px;
+  left: 0;
+  right: 0;
+  z-index: 19;
+  width: 88px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+.menu {
   width: 100px;
   height: 46px;
   margin-top: 12px;
@@ -46,72 +162,23 @@ body {
   font-family: Effra-Bold;
   font-size: 0.6em;
   line-height: 1.38;
-  text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: rgb(255, 255, 255);
 }
 
-.btn-2 {
+.section-intro {
+  position: relative;
   float: left;
-  width: 46px;
-  height: 46px;
-  padding-top: 13px;
-  padding-right: 14px;
-  padding-bottom: 14px;
-  padding-left: 14px;
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
-  border-top-color: rgba(244, 244, 244, 0.43);
-  border-right-color: rgba(244, 244, 244, 0.43);
-  border-bottom-color: rgba(244, 244, 244, 0.43);
-  border-left-color: rgba(244, 244, 244, 0.43);
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-top-left-radius: 46px;
-  border-top-right-radius: 46px;
-  border-bottom-right-radius: 46px;
-  border-bottom-left-radius: 46px;
-  background-color: rgb(47, 62, 71);
-  font-family: Effra;
-  font-size: 0.7em;
-  font-weight: Bold;
-  line-height: 1.38;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: rgb(255, 255, 255);
+  clear: both;
+  z-index: 10;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #e0e2e3;
 }
 
-.btn-3 {
-  float: left;
-  width: 100px;
-  height: 46px;
-  margin-left: 12.58371%;
-  padding-top: 14px;
-  padding-right: 14px;
-  padding-bottom: 14px;
-  padding-left: 14px;
-  border-top-left-radius: 22px;
-  border-top-right-radius: 22px;
-  border-bottom-right-radius: 22px;
-  border-bottom-left-radius: 22px;
-  background-color: rgb(255, 255, 255);
-  font-family: Effra-Bold;
-  font-size: 0.6em;
-  line-height: 1.38;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: rgb(47, 62, 71);
-}
-
-.btn-4 {
-  float: left;
+.section-intro .btn {
   min-width: 300px;
   margin-left: 4.36875%;
   padding-top: 13px;
@@ -128,99 +195,10 @@ body {
   font-size: 0.9em;
   font-weight: Medium;
   line-height: 1.2;
-  text-align: center;
   color: rgb(255, 255, 255);
 }
 
-.client-1 {
-  float: left;
-  width: 14.0791666666%;
-  height: 211px;
-  margin-left: 10%;
-  background-color: rgb(247, 247, 247);
-}
-
-.client-2,
-.client-3,
-.client-4 {
-  float: left;
-  width: 14.0791666666%;
-  height: 211px;
-  margin-left: 2.4%;
-  background-color: rgb(247, 247, 247);
-}
-
-.client-5 {
-  float: left;
-  width: 14.0791666666%;
-  height: 211px;
-  margin-left: 2.40313%;
-  background-color: rgb(247, 247, 247);
-}
-
-.clients-1 {
-  float: left;
-  clear: both;
-  width: 100%;
-  margin-top: 20px;
-}
-
-.content-container-1 {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 7;
-  width: 100%;
-  padding-top: 40px;
-  padding-bottom: 80px;
-  background-color: rgb(204, 207, 209);
-}
-
-.function-1 {
-  float: right;
-  width: 11.2%;
-  min-width: 168px;
-  margin-top: 12px;
-  margin-right: 20px;
-}
-
-.label-head-1 {
-  float: left;
-  margin-left: 10%;
-  padding-bottom: 5px;
-  font-family: Effra;
-  font-size: 0.7em;
-  font-weight: Regular;
-  line-height: 1.2;
-  color: rgb(34, 34, 34);
-}
-
-.logo-1 {
-  display: block;
-  position: absolute;
-  top: 18px;
-  left: 0;
-  right: 0;
-  z-index: 19;
-  width: 88px;
-  height: auto;
-  margin-right: auto;
-  margin-left: auto;
-  overflow: hidden;
-}
-
-.section-intro-1 {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 10;
-  width: 100%;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #e0e2e3;
-}
-
-.selector-bar-1 {
+.selector-bar {
   position: relative;
   float: left;
   clear: both;
@@ -231,7 +209,7 @@ body {
   background-color: #cccfd1;
 }
 
-.selectors-1 {
+.selectors {
   float: left;
   margin-left: 1%;
   padding-bottom: 5px;
@@ -242,7 +220,7 @@ body {
   color: rgb(34, 34, 34);
 }
 
-.top-menu-1 {
+.top-menu {
   position: fixed;
   top: 0;
   left: 0;
@@ -252,8 +230,25 @@ body {
   background-color: rgb(47, 62, 71);
 }
 
-._text-1 {
+._1 {
+  margin-left: 10%;
+}
+
+._2,
+._3,
+._4 {
+  margin-left: 2.4%;
+}
+
+._5 {
+  margin-left: 2.40313%;
+}
+
+._text {
   float: left;
+}
+
+.banner ._text {
   width: 100%;
   margin-top: 188px;
   padding-bottom: 13px;
@@ -264,22 +259,20 @@ body {
   color: rgb(255, 255, 255);
 }
 
-._text-2 {
-  float: left;
-  width: 49.4041666666%;
-  margin-left: 13.09167%;
-  font-size: 1em;
-  color: #0b0b0b;
-}
-
-._text-3 {
-  float: left;
+.content-container ._text {
   margin-left: 10%;
   padding-bottom: 8px;
   font-family: Effra-Medium;
   font-size: 0.85em;
   line-height: 1.2;
   color: #333333;
+}
+
+.section-intro ._text {
+  width: 49.4041666666%;
+  margin-left: 13.09167%;
+  font-size: 1em;
+  color: #0b0b0b;
 }
 
 .btn span {
