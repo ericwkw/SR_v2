@@ -1,10 +1,10 @@
 body {
   background-color: #ececec;
   font-family: Effra-Medium;
-  font-size: 2.063em;
+  font-size: 1.063em;
   font-weight: normal;
-  line-height: 1.1;
-  color: rgb(34, 34, 34);
+  line-height: 1.2;
+  color: #333333;
 }
 
 .banner {
@@ -38,7 +38,7 @@ body {
   border-bottom-left-radius: 22px;
   background-color: rgb(255, 255, 255);
   font-family: Effra-Bold;
-  font-size: 0.364em;
+  font-size: 0.706em;
   color: rgb(47, 62, 71);
 }
 
@@ -66,17 +66,16 @@ body {
   clear: both;
   padding-bottom: 5px;
   font-family: Effra;
-  font-size: 0.424em;
+  font-size: 0.824em;
   font-weight: Regular;
-  line-height: 1.2;
   color: rgb(34, 34, 34);
 }
 
 .job-title {
   float: left;
-  padding-bottom: 30px;
+  padding-bottom: 8px;
   font-size: 1em;
-  color: rgb(34, 34, 34);
+  color: #333333;
 }
 
 .lang {
@@ -100,7 +99,7 @@ body {
   border-bottom-left-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-family: Effra;
-  font-size: 0.424em;
+  font-size: 0.824em;
   font-weight: Bold;
   color: rgb(255, 255, 255);
 }
@@ -142,7 +141,7 @@ body {
   border-bottom-left-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-family: Effra-Bold;
-  font-size: 0.364em;
+  font-size: 0.706em;
   color: rgb(255, 255, 255);
 }
 
@@ -164,6 +163,7 @@ body {
 .project-info {
   float: left;
   width: 100%;
+  min-height: 119px;
   margin-top: 256px;
   padding-top: 25px;
   padding-right: 30px;
@@ -192,7 +192,8 @@ body {
   margin-top: 188px;
   padding-bottom: 13px;
   font-family: Effra-Bold;
-  font-size: 1.667em;
+  font-size: 3.235em;
+  line-height: 1.1;
   color: rgb(255, 255, 255);
 }
 
@@ -200,7 +201,7 @@ body {
   clear: both;
   padding-bottom: 10px;
   font-family: Effra-Light;
-  font-size: 0.848em;
+  font-size: 1.647em;
   line-height: 1.4;
   color: rgb(195, 195, 195);
 }
