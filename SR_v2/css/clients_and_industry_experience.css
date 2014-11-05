@@ -1,18 +1,19 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   font-family: Effra-Light;
-  font-size: 1.25em;
+  font-size: 2.063em;
   font-weight: normal;
-  line-height: 1.8;
-  color: #0b0b0b;
+  line-height: 1.5;
+  color: rgb(76, 97, 110);
 }
 
 .banner {
   position: relative;
   float: left;
-  z-index: 16;
+  z-index: 18;
   width: 100%;
-  height: 401px;
+  height: 750px;
+  margin-top: 72px;
   background-color: #37464e;
 }
 
@@ -49,7 +50,7 @@ body {
   border-bottom-left-radius: 22px;
   background-color: rgb(255, 255, 255);
   font-family: Effra-Bold;
-  font-size: 0.6em;
+  font-size: 0.364em;
   line-height: 1.38;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -82,11 +83,21 @@ body {
   margin-right: 20px;
 }
 
+.just-a-line {
+  float: left;
+  clear: both;
+  width: 70px;
+  height: 4px;
+  margin-top: 30px;
+  margin-left: 10%;
+  background-color: rgb(255, 255, 255);
+}
+
 .label-head {
   float: left;
   padding-bottom: 5px;
   font-family: Effra;
-  font-size: 0.7em;
+  font-size: 0.424em;
   font-weight: Regular;
   line-height: 1.2;
   color: rgb(34, 34, 34);
@@ -117,7 +128,7 @@ body {
   border-bottom-left-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-family: Effra;
-  font-size: 0.7em;
+  font-size: 0.424em;
   font-weight: Bold;
   line-height: 1.38;
   text-transform: uppercase;
@@ -131,7 +142,7 @@ body {
   top: 18px;
   left: 0;
   right: 0;
-  z-index: 20;
+  z-index: 22;
   width: 88px;
   height: auto;
   margin-right: auto;
@@ -166,7 +177,7 @@ body {
   border-bottom-left-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-family: Effra-Bold;
-  font-size: 0.6em;
+  font-size: 0.364em;
   line-height: 1.38;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -181,10 +192,11 @@ body {
   width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #e0e2e3;
+  background-color: #f6f6fa;
 }
 
 .section-intro .btn {
+  clear: both;
   min-width: 300px;
   margin-left: 4.36875%;
   padding-top: 13px;
@@ -198,7 +210,7 @@ body {
   background-color: rgb(251, 104, 27);
   box-shadow: 0 3px 0 rgb(147, 63, 19);
   font-family: Effra;
-  font-size: 0.9em;
+  font-size: 0.545em;
   font-weight: Medium;
   line-height: 1.2;
   color: rgb(255, 255, 255);
@@ -220,7 +232,7 @@ body {
   margin-left: 2.04818%;
   padding-bottom: 5px;
   font-family: Effra;
-  font-size: 0.7em;
+  font-size: 0.424em;
   font-weight: Regular;
   line-height: 1.2;
   color: rgb(34, 34, 34);
@@ -230,7 +242,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 22;
+  z-index: 24;
   width: 100%;
   height: 72px;
   background-color: rgb(47, 62, 71);
@@ -255,13 +267,9 @@ body {
 }
 
 .banner ._text {
-  width: 100%;
-  margin-top: 188px;
-  padding-bottom: 13px;
-  font-family: Effra-Bold;
-  font-size: 2.75em;
+  width: 52.5354166666%;
+  margin-left: 10%;
   line-height: 1.1;
-  text-align: center;
   color: rgb(255, 255, 255);
 }
 
@@ -269,16 +277,33 @@ body {
   margin-left: 10%;
   padding-bottom: 8px;
   font-family: Effra-Medium;
-  font-size: 0.85em;
+  font-size: 0.515em;
   line-height: 1.2;
   color: #333333;
 }
 
 .section-intro ._text {
-  width: 49.4041666666%;
   margin-left: 13.09167%;
+  padding-bottom: 20px;
   font-size: 1em;
-  color: #0b0b0b;
+  color: rgb(76, 97, 110);
+}
+
+.banner ._text-1 {
+  display: block;
+  margin-top: 400px;
+  padding-bottom: 25px;
+  font-family: Effra-Medium;
+  font-size: 0.424em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.banner ._text-2 {
+  clear: both;
+  padding-bottom: 13px;
+  font-family: Effra-Bold;
+  font-size: 1.667em;
 }
 
 .btn span {

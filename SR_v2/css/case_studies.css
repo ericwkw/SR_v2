@@ -1,5 +1,5 @@
 body {
-  background-color: #ececec;
+  background-color: #ffffff;
   font-family: Effra-Medium;
   font-size: 1.063em;
   font-weight: normal;
@@ -10,9 +10,10 @@ body {
 .banner {
   position: relative;
   float: left;
-  z-index: 15;
+  z-index: 16;
   width: 100%;
-  height: 401px;
+  height: 750px;
+  margin-top: 58px;
   background-color: rgb(55, 70, 78);
 }
 
@@ -50,7 +51,7 @@ body {
   width: 100%;
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: rgb(224, 226, 227);
+  background-color: #f6f6fa;
 }
 
 .function {
@@ -76,6 +77,16 @@ body {
   padding-bottom: 8px;
   font-size: 1em;
   color: #333333;
+}
+
+.just-a-line {
+  float: left;
+  clear: both;
+  width: 70px;
+  height: 4px;
+  margin-top: 30px;
+  margin-left: 10%;
+  background-color: rgb(255, 255, 255);
 }
 
 .lang {
@@ -110,7 +121,7 @@ body {
   top: 18px;
   left: 0;
   right: 0;
-  z-index: 19;
+  z-index: 20;
   width: 88px;
   height: auto;
   margin-right: auto;
@@ -176,7 +187,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 21;
+  z-index: 22;
   width: 100%;
   height: 72px;
   background-color: rgb(47, 62, 71);
@@ -184,26 +195,26 @@ body {
 
 ._text {
   float: left;
-  width: 100%;
-  text-align: center;
-}
-
-.banner ._text-1 {
-  margin-top: 188px;
-  padding-bottom: 13px;
-  font-family: Effra-Bold;
-  font-size: 3.235em;
+  width: 52.5354166666%;
+  margin-left: 10%;
   line-height: 1.1;
   color: rgb(255, 255, 255);
 }
 
+.banner ._text-1 {
+  display: block;
+  margin-top: 400px;
+  padding-bottom: 25px;
+  font-size: 0.824em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
 .banner ._text-2 {
   clear: both;
-  padding-bottom: 10px;
-  font-family: Effra-Light;
-  font-size: 1.647em;
-  line-height: 1.4;
-  color: rgb(195, 195, 195);
+  padding-bottom: 13px;
+  font-family: Effra-Bold;
+  font-size: 3.235em;
 }
 
 .btn span {

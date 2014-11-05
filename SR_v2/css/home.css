@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   font-family: Effra-Regular;
   font-size: 0.875em;
   font-weight: normal;
@@ -17,6 +17,31 @@ body {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.client {
+  float: left;
+  width: 16%;
+  height: 130px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgb(234, 235, 235);
+  border-right-color: rgb(234, 235, 235);
+  border-bottom-color: rgb(234, 235, 235);
+  border-left-color: rgb(234, 235, 235);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.clients {
+  float: left;
+  clear: both;
+  width: 100%;
 }
 
 .contact {
@@ -57,19 +82,69 @@ body {
   margin-right: 20px;
 }
 
-.img {
+.img-1 {
   float: left;
   clear: both;
   width: 100%;
   height: 300px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/LiFung_03.jpg');
+  background-image:    -moz-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/LiFung_03.jpg');
+  background-image:      -o-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/LiFung_03.jpg');
+  background-image:     -ms-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/LiFung_03.jpg');
+  background-image:         linear-gradient(180deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/LiFung_03.jpg');
   background-repeat: no-repeat, no-repeat;
   background-size: 100% 100%, cover;
+  background-position: 0% 0%, 50% 35%;
+  background-attachment: scroll, scroll;
+  background-color: rgb(0, 0, 0);
+}
+
+.img-2 {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 300px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/Meratus-banner.jpg');
+  background-image:    -moz-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/Meratus-banner.jpg');
+  background-image:      -o-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/Meratus-banner.jpg');
+  background-image:     -ms-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/Meratus-banner.jpg');
+  background-image:         linear-gradient(180deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/Meratus-banner.jpg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% 100%, cover;
+  background-position: 0% 0%, 50% 60%;
+  background-attachment: scroll, scroll;
+  background-color: rgb(0, 0, 0);
+}
+
+.img-3 {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 300px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/ACG_banner_0.jpg');
+  background-image:    -moz-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/ACG_banner_0.jpg');
+  background-image:      -o-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/ACG_banner_0.jpg');
+  background-image:     -ms-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/ACG_banner_0.jpg');
+  background-image:         linear-gradient(180deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/ACG_banner_0.jpg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% 100%, cover;
+  background-position: 0% 0%, 50% 45%;
   background-attachment: scroll, scroll;
   background-color: rgb(0, 0, 0);
 }
 
 .intro {
   float: left;
+}
+
+.just-a-line {
+  float: left;
+  clear: both;
+  width: 30px;
+  height: 2px;
+  margin-top: 100px;
+  margin-left: 10%;
+  background-color: #000233;
 }
 
 .lang {
@@ -104,7 +179,7 @@ body {
   top: 18px;
   left: 0;
   right: 0;
-  z-index: 35;
+  z-index: 55;
   width: 88px;
   height: auto;
   margin-right: auto;
@@ -139,12 +214,25 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.our_work {
+  float: left;
+  clear: both;
+  width: 100%;
+  padding-bottom: 120px;
+  background-color: #f6f6fa;
+}
+
 .sep {
   float: left;
-  width: 80%;
-  height: 1px;
-  margin-left: 10%;
-  background-color: rgba(251, 104, 27, 0.52);
+  width: 100%;
+  padding-top: 30px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-color: #ededed;
+  border-bottom-color: #ededed;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  background-color: #ffffff;
 }
 
 .top-menu {
@@ -157,42 +245,7 @@ body {
 }
 
 ._1 {
-  float: left;
-  clear: both;
-}
-
-._2 {
-  position: relative;
-  float: left;
-  z-index: 18;
-  width: 25.0666666666%;
-  margin-top: 20px;
-  margin-left: 2.4%;
-  padding-top: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
-  border-left-width: 1px;
-  border-left-color: rgb(204, 207, 209);
-  border-left-style: solid;
-  background-color: rgb(255, 255, 255);
-}
-
-._3 {
-  position: relative;
-  float: left;
-  z-index: 22;
-  width: 25.0666666666%;
-  margin-top: 20px;
-  margin-left: 2.4%;
-  padding-top: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
-  border-left-width: 1px;
-  border-left-color: rgb(204, 207, 209);
-  border-left-style: solid;
-  background-color: rgb(255, 255, 255);
+  margin-left: 10%;
 }
 
 ._container {
@@ -214,8 +267,35 @@ body {
   float: left;
 }
 
-.img ._text {
+.clients ._text {
+  margin-left: 10%;
+}
+
+.img-1 ._text {
   width: 80%;
+  margin-top: 126px;
+  margin-left: 10%;
+  padding-bottom: 18px;
+  font-size: 1.857em;
+  line-height: 1.1;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.img-2 ._text {
+  width: 80%;
+  margin-top: 120px;
+  margin-left: 10%;
+  padding-bottom: 18px;
+  font-size: 1.857em;
+  line-height: 1.1;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.img-3 ._text {
+  width: 80%;
+  margin-top: 113px;
   margin-left: 10%;
   padding-bottom: 30px;
   font-size: 2.357em;
@@ -226,23 +306,51 @@ body {
 
 .intro ._1 {
   position: relative;
-  z-index: 14;
+  float: left;
+  clear: both;
+  z-index: 33;
   width: 25.0666666666%;
-  margin-top: 20px;
-  margin-left: 10%;
+  margin-top: 50px;
   padding-top: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
-  padding-left: 30px;
-  border-left-width: 1px;
-  border-left-color: rgb(204, 207, 209);
-  border-left-style: solid;
-  background-color: rgb(255, 255, 255);
+  border-right-width: 1px;
+  border-right-color: rgb(224, 226, 227);
+  border-right-style: solid;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.intro ._2 {
+  position: relative;
+  float: left;
+  z-index: 37;
+  width: 25.0666666666%;
+  margin-top: 50px;
+  margin-left: 2.4%;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  border-right-width: 1px;
+  border-right-color: rgb(224, 226, 227);
+  border-right-style: solid;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.intro ._3 {
+  position: relative;
+  float: left;
+  z-index: 41;
+  width: 25.0666666666%;
+  margin-top: 50px;
+  margin-left: 2.4%;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .news ._text {
   clear: both;
-  margin-top: 5px;
   padding-bottom: 8px;
   font-family: Effra-Medium;
   font-size: 1.214em;
@@ -250,32 +358,48 @@ body {
   color: #333333;
 }
 
-.img-1 {
-  margin-top: 30px;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/LiFung_03.jpg');
-  background-image:    -moz-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/LiFung_03.jpg');
-  background-image:      -o-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/LiFung_03.jpg');
-  background-image:     -ms-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/LiFung_03.jpg');
-  background-image:         linear-gradient(180deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/LiFung_03.jpg');
-  background-position: 0% 0%, 50% 35%;
+.sep ._text {
+  width: 80%;
+  padding-bottom: 30px;
+  font-size: 1em;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: rgb(34, 34, 34);
 }
 
-.img-2 {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/Meratus-banner.jpg');
-  background-image:    -moz-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/Meratus-banner.jpg');
-  background-image:      -o-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/Meratus-banner.jpg');
-  background-image:     -ms-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/Meratus-banner.jpg');
-  background-image:         linear-gradient(180deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/Meratus-banner.jpg');
-  background-position: 0% 0%, 50% 60%;
+.client-1 {
+  position: relative;
+  z-index: 8;
 }
 
-.img-3 {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/ACG_banner_0.jpg');
-  background-image:    -moz-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/ACG_banner_0.jpg');
-  background-image:      -o-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/ACG_banner_0.jpg');
-  background-image:     -ms-linear-gradient(270deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/ACG_banner_0.jpg');
-  background-image:         linear-gradient(180deg, rgba(0, 0, 0, 0) 83.33333333333334%, rgba(0, 0, 0, 0.52) 100%), url('../images/ACG_banner_0.jpg');
-  background-position: 0% 0%, 50% 45%;
+.client-2 {
+  position: relative;
+  z-index: 9;
+}
+
+.client-3 {
+  position: relative;
+  z-index: 10;
+}
+
+.client-4 {
+  position: relative;
+  z-index: 11;
+}
+
+.client-5 {
+  position: relative;
+  z-index: 12;
+}
+
+.clients-1 {
+  padding-bottom: 120px;
+  background-color: #f6f6fa;
+}
+
+.clients-2 {
+  margin-top: 80px;
 }
 
 .intro-1 {
@@ -288,70 +412,27 @@ body {
 .intro-2 {
   clear: both;
   width: 100%;
-  padding-top: 60px;
-  padding-bottom: 40px;
-  background-color: #ffffff;
+  padding-bottom: 120px;
+  background-color: #f6f6fa;
 }
 
-._1-2 {
-  width: 100%;
-  padding-bottom: 40px;
-  background-color: #ffffff;
-}
-
-._1-3 {
-  width: 100%;
-  background-color: #ffffff;
-}
-
-._text-15 {
+.clients ._text-17 {
   display: block;
   clear: both;
   width: 80%;
-  margin-top: 35px;
-  margin-left: 10%;
+  margin-top: 45px;
   font-family: Effra;
   font-style: italic;
   font-size: 1.214em;
   font-weight: Regular;
   line-height: 1;
-  text-align: center;
-  color: rgb(163, 163, 163);
-}
-
-._text-11,
-._text-16 {
-  clear: both;
-  width: 80%;
-  margin-top: 60px;
-  margin-left: 10.13125%;
-  padding-bottom: 20px;
-  font-family: Effra-Bold;
-  font-size: 1em;
-  line-height: 1.1;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  color: rgb(251, 104, 27);
-}
-
-.img ._text-12 {
-  margin-top: 126px;
-}
-
-.img ._text-13 {
-  margin-top: 120px;
-}
-
-.img ._text-14 {
-  margin-top: 113px;
+  color: #939393;
 }
 
 .intro ._text-1 {
   padding-bottom: 13px;
-  font-family: Effra;
+  font-family: Effra-Bold;
   font-size: 3.929em;
-  font-weight: Regular;
   line-height: 1.1;
   color: rgb(255, 255, 255);
 }
@@ -360,13 +441,12 @@ body {
   display: block;
   clear: both;
   width: 80%;
-  margin-top: 35px;
+  margin-top: 40px;
   margin-left: 10%;
   font-family: Effra-Italic;
-  font-size: 1.143em;
+  font-size: 1.214em;
   line-height: 1;
-  text-align: center;
-  color: rgb(172, 172, 172);
+  color: #939393;
 }
 
 .intro ._text-2 {
@@ -407,17 +487,37 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.intro ._text-6 {
+.news ._text-7,
+.news ._text-9 {
+  margin-top: 5px;
+}
+
+.our_work ._text-15 {
+  display: block;
+  clear: both;
   width: 80%;
+  margin-top: 45px;
   margin-left: 10%;
-  padding-bottom: 20px;
+  font-family: Effra;
+  font-style: italic;
+  font-size: 1.214em;
+  font-weight: Regular;
+  line-height: 1;
+  color: #939393;
+}
+
+.sep ._text-11 {
+  margin-left: 10.13125%;
   font-family: Effra-Bold;
-  font-size: 1em;
-  line-height: 1.1;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  color: rgb(251, 104, 27);
+}
+
+.sep ._text-16 {
+  font-family: Effra-Medium;
+}
+
+.sep ._text-6 {
+  margin-left: 10%;
+  font-family: Effra-Bold;
 }
 
 .btn span {

@@ -1,18 +1,18 @@
 body {
-  background-color: rgb(0, 0, 0);
-  font-family: Effra-Light;
-  font-size: 1.25em;
+  background-color: #ffffff;
+  font-family: Effra-Regular;
+  font-size: 1.063em;
   font-weight: normal;
-  line-height: 1.8;
-  color: #0b0b0b;
+  line-height: 1.45;
+  color: #5e5e6e;
 }
 
 .banner {
   position: relative;
   float: left;
-  z-index: 25;
+  z-index: 29;
   width: 100%;
-  height: 650px;
+  height: 750px;
   margin-top: 72px;
   padding-bottom: 50px;
   background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url('../images/ACG_banner_0.jpg');
@@ -27,37 +27,34 @@ body {
   background-color: rgb(204, 204, 204);
 }
 
+.banner .just-a-line {
+  width: 70px;
+  height: 4px;
+  margin-top: 25px;
+  margin-left: 10.53125%;
+  background-color: rgb(255, 255, 255);
+}
+
 .brief {
+  position: relative;
   float: left;
+  z-index: 22;
   width: 37.9199999999%;
   margin-left: 10.5%;
 }
 
-.brief .content,
-.content-2 {
-  font-size: 1em;
-  color: #0b0b0b;
-}
-
 .btn {
   float: left;
-  height: 46px;
-  padding-right: 14px;
-  padding-bottom: 14px;
-  padding-left: 14px;
-  line-height: 1.38;
-  text-align: center;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 .caption {
   float: left;
   clear: both;
+  width: 72.1562499999%;
+  margin-left: 10.5%;
   padding-top: 18px;
-  font-family: Effra-Regular;
-  font-size: 0.8em;
-  line-height: 1.45;
+  font-size: 0.882em;
   color: rgb(135, 135, 135);
 }
 
@@ -86,21 +83,31 @@ body {
 
 .contact {
   width: 100px;
+  height: 46px;
   margin-left: 12.58371%;
   padding-top: 14px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  padding-left: 14px;
   border-top-left-radius: 22px;
   border-top-right-radius: 22px;
   border-bottom-right-radius: 22px;
   border-bottom-left-radius: 22px;
   background-color: rgb(255, 255, 255);
   font-family: Effra-Bold;
-  font-size: 0.6em;
+  font-size: 0.706em;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 1px;
   color: rgb(47, 62, 71);
 }
 
 .content {
   float: left;
   clear: both;
+  margin-top: 18px;
+  font-size: 1em;
+  color: #5e5e6e;
 }
 
 .content-2 p {
@@ -115,32 +122,77 @@ body {
   margin-right: 20px;
 }
 
-.heading {
-  float: left;
-  width: 44.7672916666%;
-  margin-top: 434px;
-  margin-left: 24.19271%;
-}
-
 .img {
   float: left;
-  background-color: rgb(255, 255, 255);
 }
 
 .intro {
   position: relative;
   float: left;
   clear: both;
-  z-index: 21;
+  z-index: 24;
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: rgb(255, 255, 255);
+  background-color: #f6f6fa;
+}
+
+.intro .btn {
+  display: block;
+  clear: both;
+  margin-top: 81px;
+  margin-left: 10.5%;
+  padding-top: 15px;
+  padding-right: 45px;
+  padding-bottom: 15px;
+  padding-left: 45px;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-top-color: #000244;
+  border-right-color: #000244;
+  border-bottom-color: #000244;
+  border-left-color: #000244;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  font-family: Effra-Bold;
+  font-size: 0.882em;
+  line-height: 1;
+  color: #000244;
+}
+
+.just-a-line {
+  float: left;
+  clear: both;
+}
+
+.l-arrow {
+  float: left;
+  width: 65px;
+  height: 65px;
+  margin-top: 256px;
+  margin-left: 10.5%;
+  background-image: url('../images/arrows.svg');
+  background-repeat: no-repeat;
+  background-size: 130px auto;
+  background-position: left top;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .lang {
   width: 46px;
+  height: 46px;
   padding-top: 13px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  padding-left: 14px;
   border-top-width: 1px;
   border-right-width: 1px;
   border-bottom-width: 1px;
@@ -159,8 +211,11 @@ body {
   border-bottom-left-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-family: Effra;
-  font-size: 0.7em;
+  font-size: 0.824em;
   font-weight: Bold;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 1px;
   color: rgb(255, 255, 255);
 }
 
@@ -170,7 +225,7 @@ body {
   top: 18px;
   left: 0;
   right: 0;
-  z-index: 29;
+  z-index: 33;
   width: 88px;
   height: auto;
   margin-right: auto;
@@ -186,9 +241,13 @@ body {
 
 .menu {
   width: 100px;
+  height: 46px;
   margin-top: 12px;
   margin-left: 20px;
   padding-top: 14px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  padding-left: 14px;
   border-top-width: 1px;
   border-right-width: 1px;
   border-bottom-width: 1px;
@@ -207,8 +266,24 @@ body {
   border-bottom-left-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-family: Effra-Bold;
-  font-size: 0.6em;
+  font-size: 0.706em;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 1px;
   color: rgb(255, 255, 255);
+}
+
+.r-arrow {
+  float: right;
+  width: 65px;
+  height: 65px;
+  margin-top: 256px;
+  margin-right: 10.5%;
+  background-image: url('../images/arrows.svg');
+  background-repeat: no-repeat;
+  background-size: 130px auto;
+  background-position: right top;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .solution {
@@ -217,11 +292,18 @@ body {
   margin-left: 3.15417%;
 }
 
+.brief .just-a-line,
+.solution .just-a-line {
+  width: 15px;
+  height: 1px;
+  background-color: #000233;
+}
+
 .top-menu {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 31;
+  z-index: 35;
   width: 100%;
   height: 72px;
   background-color: rgb(47, 62, 71);
@@ -231,20 +313,27 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 13;
+  z-index: 14;
   width: 100%;
+  padding-top: 40px;
   padding-bottom: 60px;
-  background-color: rgb(255, 255, 255);
+  background-color: #f6f6fa;
 }
 
 ._2 {
   position: relative;
   float: left;
   clear: both;
-  z-index: 10;
+  z-index: 11;
   width: 100%;
-  padding-bottom: 60px;
-  background-color: rgb(255, 255, 255);
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-image: -webkit-linear-gradient(39deg, #296487 0%, #3e9cd4 100%);
+  background-image:    -moz-linear-gradient(39deg, #296487 0%, #3e9cd4 100%);
+  background-image:      -o-linear-gradient(39deg, #296487 0%, #3e9cd4 100%);
+  background-image:     -ms-linear-gradient(39deg, #296487 0%, #3e9cd4 100%);
+  background-image:         linear-gradient(411deg, #296487 0%, #3e9cd4 100%);
+  background-color: #f6f6fa;
 }
 
 ._3 {
@@ -253,8 +342,9 @@ body {
   clear: both;
   z-index: 7;
   width: 100%;
+  padding-top: 40px;
   padding-bottom: 60px;
-  background-color: rgb(255, 255, 255);
+  background-color: #f6f6fa;
 }
 
 ._4 {
@@ -263,6 +353,7 @@ body {
   clear: both;
   z-index: 4;
   width: 100%;
+  margin-top: 739px;
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom-width: 1px;
@@ -271,63 +362,38 @@ body {
   background-color: rgb(242, 242, 242);
 }
 
-.heading ._text {
+.banner ._text {
   float: left;
-  margin-left: -0.00233%;
+  margin-left: 10.53125%;
 }
 
 .main-4 ._text {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   font-family: Effra-Bold;
-  font-size: 0.7em;
+  font-size: 0.824em;
   line-height: 1.1;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  color: rgb(251, 104, 27);
+  color: rgb(34, 34, 34);
 }
 
 .brief ._text,
 .solution ._text {
   float: left;
-  padding-bottom: 20px;
+  padding-bottom: 18px;
   font-family: Effra-Bold;
-  font-size: 0.7em;
+  font-size: 1.529em;
   line-height: 1.1;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  color: rgb(251, 104, 27);
-}
-
-.caption-1,
-.caption-2 {
-  width: 72.1562499999%;
-  margin-left: 17.34375%;
-}
-
-.caption-3 {
-  width: 72.1697916666%;
-  margin-left: 17.33021%;
-}
-
-.content-3 {
-  margin-top: 30px;
-  padding-bottom: 13px;
-  font-family: Effra-Italic;
-  font-size: 0.85em;
-  line-height: 1;
-  text-align: center;
-  color: rgb(163, 163, 163);
+  color: #000244;
 }
 
 .img-1 {
-  width: 78.9999999999%;
+  width: 100%;
   height: 430px;
   min-height: 400px;
-  margin-left: 10.5%;
   background-image: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.12) 0%, rgba(0, 0, 0, 0.12) 100%), url('../images/ACG_01.jpg');
   background-image:    -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.12) 0%, rgba(0, 0, 0, 0.12) 100%), url('../images/ACG_01.jpg');
   background-image:      -o-linear-gradient(0deg, rgba(0, 0, 0, 0.12) 0%, rgba(0, 0, 0, 0.12) 100%), url('../images/ACG_01.jpg');
@@ -337,9 +403,21 @@ body {
   background-size: 100% 100%, cover;
   background-position: 0% 0%, center center;
   background-attachment: scroll, scroll;
+  background-color: rgb(255, 255, 255);
 }
 
 .img-2 {
+  width: 65.3333333333%;
+  height: 580px;
+  margin-left: 2.496875%;
+  background-image: url('../images/ACG_05(2).png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.img-3 {
   width: 78.9999999999%;
   height: 430px;
   min-height: 400px;
@@ -348,31 +426,37 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background-color: rgb(255, 255, 255);
 }
 
-.img-3 {
-  width: 65.3333333333%;
-  height: 580px;
-  margin-left: 17.33021%;
-  background-image: url('../images/ACG_05.png');
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: center top;
+.banner ._text-1 {
+  display: block;
+  width: 52.5354166666%;
+  margin-top: 400px;
+  padding-bottom: 25px;
+  font-family: Effra-Medium;
+  font-size: 0.824em;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: rgb(255, 255, 255);
 }
 
-.heading ._text-1 {
+.banner ._text-2 {
+  clear: both;
   padding-bottom: 13px;
   font-family: Effra-Bold;
-  font-size: 2.75em;
+  font-size: 3.235em;
   line-height: 1.1;
   color: rgb(255, 255, 255);
 }
 
-.heading ._text-2 {
+.banner ._text-3 {
   clear: both;
-  width: 100%;
+  width: 44.7666666666%;
   padding-bottom: 10px;
-  font-size: 1.4em;
+  font-family: Effra-Light;
+  font-size: 1.647em;
   line-height: 1.4;
   color: rgb(195, 195, 195);
 }
