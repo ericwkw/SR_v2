@@ -19,6 +19,7 @@ body {
 
 .btn {
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .contact {
@@ -32,13 +33,13 @@ body {
   margin-top: 25px;
   margin-left: 10%;
   padding-top: 15px;
-  padding-right: 45px;
+  padding-right: 70px;
   padding-bottom: 15px;
-  padding-left: 45px;
-  border-top-width: 2px;
-  border-right-width: 2px;
-  border-bottom-width: 2px;
-  border-left-width: 2px;
+  padding-left: 70px;
+  border-top-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
   border-top-color: #ffffff;
   border-right-color: #ffffff;
   border-bottom-color: #ffffff;
@@ -47,11 +48,11 @@ body {
   border-right-style: solid;
   border-bottom-style: solid;
   border-left-style: solid;
-  border-top-left-radius: 80px;
-  border-top-right-radius: 80px;
-  border-bottom-right-radius: 80px;
-  border-bottom-left-radius: 80px;
-  font-size: 1.071em;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  font-size: 1.143em;
   line-height: 1;
   color: #ffffff;
 }
@@ -115,7 +116,6 @@ body {
   font-size: 0.857em;
   line-height: 1.38;
   text-align: center;
-  letter-spacing: 1px;
   color: rgb(47, 62, 71);
 }
 
@@ -131,7 +131,7 @@ body {
 
 .job-title {
   float: left;
-  padding-bottom: 8px;
+  padding-bottom: 10px;
   font-size: 1.214em;
   color: #333333;
 }
@@ -176,7 +176,6 @@ body {
   font-weight: Bold;
   line-height: 1.38;
   text-align: center;
-  letter-spacing: 1px;
   color: rgb(255, 255, 255);
 }
 
@@ -225,7 +224,6 @@ body {
   font-size: 0.857em;
   line-height: 1.38;
   text-align: center;
-  letter-spacing: 1px;
   color: rgb(255, 255, 255);
 }
 
@@ -309,7 +307,6 @@ body {
   font-size: 1em;
   line-height: 1.38;
   text-align: center;
-  letter-spacing: 1px;
   color: rgb(255, 255, 255);
 }
 
@@ -453,7 +450,7 @@ body {
   padding-bottom: 18px;
   font-family: Effra;
   font-size: 1.857em;
-  font-weight: Regular;
+  font-weight: Medium;
   line-height: 1.1;
   color: #ffffff;
 }
@@ -461,7 +458,7 @@ body {
 .contact ._text-4,
 .contact ._text-5,
 .contact ._text-6 {
-  padding-bottom: 8px;
+  padding-bottom: 10px;
   font-size: 1.214em;
   color: rgb(255, 255, 255);
 }
