@@ -1,7 +1,7 @@
 body {
   background-color: #ffffff;
   font-family: Effra-Regular;
-  font-size: 1.063em;
+  font-size: 17px;
   font-weight: normal;
   line-height: 1.45;
   color: rgb(255, 255, 255);
@@ -68,7 +68,7 @@ body {
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
   font-family: Effra-Medium;
-  font-size: 0.941em;
+  font-size: 16px;
   line-height: 1;
   color: #ffffff;
 }
@@ -84,7 +84,7 @@ body {
 
 .contact .content {
   padding-bottom: 5px;
-  font-size: 0.824em;
+  font-size: 14px;
   line-height: 1.5;
   color: rgb(255, 255, 255);
 }
@@ -100,7 +100,7 @@ body {
   z-index: 1;
   margin-left: 30px;
   font-family: Effra-Medium;
-  font-size: 0.824em;
+  font-size: 14px;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
@@ -111,7 +111,7 @@ body {
 .date {
   float: left;
   padding-bottom: 5px;
-  font-size: 0.824em;
+  font-size: 14px;
   line-height: 1.2;
   color: rgb(34, 34, 34);
 }
@@ -138,7 +138,7 @@ body {
   border-bottom-left-radius: 22px;
   background-color: rgb(255, 255, 255);
   font-family: Effra-Bold;
-  font-size: 0.706em;
+  font-size: 12px;
   line-height: 1.38;
   text-align: center;
   color: rgb(47, 62, 71);
@@ -235,7 +235,7 @@ body {
   border-bottom-left-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-family: Effra;
-  font-size: 0.824em;
+  font-size: 14px;
   font-weight: Bold;
   line-height: 1.38;
   text-align: center;
@@ -284,7 +284,7 @@ body {
   border-bottom-left-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-family: Effra-Bold;
-  font-size: 0.706em;
+  font-size: 12px;
   line-height: 1.38;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -292,7 +292,6 @@ body {
 
 .news .content {
   padding-bottom: 25px;
-  font-size: 1em;
   color: #5e5e6e;
 }
 
@@ -325,7 +324,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   font-family: Effra-Medium;
-  font-size: 0.824em;
+  font-size: 14px;
   line-height: 1.38;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -377,7 +376,7 @@ body {
   margin-top: 126px;
   margin-left: 10%;
   padding-bottom: 18px;
-  font-size: 1.529em;
+  font-size: 26px;
   line-height: 1.1;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -388,7 +387,7 @@ body {
   margin-top: 120px;
   margin-left: 10%;
   padding-bottom: 18px;
-  font-size: 1.529em;
+  font-size: 26px;
   line-height: 1.1;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -399,7 +398,7 @@ body {
   margin-top: 113px;
   margin-left: 10%;
   padding-bottom: 30px;
-  font-size: 1.941em;
+  font-size: 33px;
   line-height: 1.1;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -454,7 +453,6 @@ body {
   clear: both;
   padding-bottom: 10px;
   font-family: Effra-Medium;
-  font-size: 1em;
   line-height: 1.2;
   color: #333333;
 }
@@ -462,7 +460,7 @@ body {
 .sep ._text {
   width: 80%;
   padding-bottom: 30px;
-  font-size: 0.824em;
+  font-size: 14px;
   line-height: 1.1;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -567,7 +565,7 @@ body {
 ._text-22 {
   margin-left: 63px;
   font-family: Effra-Medium;
-  font-size: 0.824em;
+  font-size: 14px;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
@@ -578,7 +576,7 @@ body {
 ._text-23 {
   margin-left: 54px;
   font-family: Effra-Medium;
-  font-size: 0.824em;
+  font-size: 14px;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
@@ -593,7 +591,7 @@ body {
   margin-top: 45px;
   font-family: Effra;
   font-style: italic;
-  font-size: 1.059em;
+  font-size: 18px;
   font-weight: Regular;
   line-height: 1;
   color: #939393;
@@ -603,7 +601,7 @@ body {
   margin-left: 10%;
   padding-bottom: 18px;
   font-family: Effra;
-  font-size: 1.529em;
+  font-size: 26px;
   font-weight: Medium;
   line-height: 1.1;
   color: #ffffff;
@@ -614,7 +612,6 @@ body {
 .contact ._text-21 {
   padding-bottom: 10px;
   font-family: Effra-Medium;
-  font-size: 1em;
   line-height: 1.2;
   color: rgb(255, 255, 255);
 }
@@ -622,7 +619,7 @@ body {
 .intro ._text-1 {
   padding-bottom: 13px;
   font-family: Effra-Bold;
-  font-size: 3.235em;
+  font-size: 55px;
   line-height: 1.1;
   color: rgb(255, 255, 255);
 }
@@ -634,7 +631,7 @@ body {
   margin-top: 40px;
   margin-left: 10%;
   font-family: Effra-Italic;
-  font-size: 1.059em;
+  font-size: 18px;
   line-height: 1;
   color: #939393;
 }
@@ -645,7 +642,7 @@ body {
   margin-top: 10px;
   padding-bottom: 10px;
   font-family: Effra-Light;
-  font-size: 1.647em;
+  font-size: 28px;
   line-height: 1.4;
   color: rgb(195, 195, 195);
 }
@@ -658,7 +655,7 @@ body {
   border-bottom-width: 2px;
   border-bottom-color: rgb(251, 104, 27);
   border-bottom-style: solid;
-  font-size: 1.647em;
+  font-size: 28px;
   line-height: 1.15;
   color: rgb(255, 255, 255);
 }
@@ -672,7 +669,7 @@ body {
   border-bottom-width: 2px;
   border-bottom-color: rgb(251, 104, 27);
   border-bottom-style: solid;
-  font-size: 1.647em;
+  font-size: 28px;
   line-height: 1.15;
   color: rgb(255, 255, 255);
 }
@@ -690,7 +687,7 @@ body {
   margin-left: 10%;
   font-family: Effra;
   font-style: italic;
-  font-size: 1.059em;
+  font-size: 18px;
   font-weight: Regular;
   line-height: 1;
   color: #939393;
