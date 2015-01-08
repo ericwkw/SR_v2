@@ -1,7 +1,7 @@
 body {
   background-color: #ffffff;
   font-family: Effra-Regular;
-  font-size: 17px;
+  font-size: 1.063em;
   font-weight: normal;
   line-height: 1.45;
   color: #5e5e6e;
@@ -11,6 +11,7 @@ body {
   float: left;
   clear: both;
   margin-top: 18px;
+  font-size: 1em;
   color: #5e5e6e;
 }
 
@@ -67,7 +68,7 @@ body {
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
   font-family: Effra-Bold;
-  font-size: 16px;
+  font-size: 0.941em;
   line-height: 1;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -89,7 +90,7 @@ body {
   border-bottom-left-radius: 22px;
   background-color: rgb(255, 255, 255);
   font-family: Effra-Bold;
-  font-size: 12px;
+  font-size: 0.706em;
   color: rgb(47, 62, 71);
 }
 
@@ -110,7 +111,7 @@ body {
   z-index: 1;
   margin-left: 30px;
   font-family: Effra-Medium;
-  font-size: 14px;
+  font-size: 0.824em;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
@@ -157,7 +158,7 @@ body {
   border-bottom-left-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-family: Effra;
-  font-size: 14px;
+  font-size: 0.824em;
   font-weight: Bold;
   color: rgb(255, 255, 255);
 }
@@ -175,7 +176,7 @@ body {
 .location .location {
   padding-bottom: 18px;
   font-family: Effra-Medium;
-  font-size: 26px;
+  font-size: 1.529em;
   line-height: 1.1;
   color: #000244;
 }
@@ -222,7 +223,7 @@ body {
   border-bottom-left-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-family: Effra-Bold;
-  font-size: 12px;
+  font-size: 0.706em;
   color: rgb(255, 255, 255);
 }
 
@@ -234,7 +235,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   font-family: Effra-Medium;
-  font-size: 14px;
+  font-size: 0.824em;
   color: rgb(255, 255, 255);
 }
 
@@ -338,7 +339,7 @@ body {
 ._text-3 {
   margin-left: 63px;
   font-family: Effra-Medium;
-  font-size: 14px;
+  font-size: 0.824em;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
@@ -348,7 +349,7 @@ body {
 ._text-4 {
   margin-left: 54px;
   font-family: Effra-Medium;
-  font-size: 14px;
+  font-size: 0.824em;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
@@ -360,7 +361,7 @@ body {
   margin-top: 400px;
   padding-bottom: 25px;
   font-family: Effra-Medium;
-  font-size: 14px;
+  font-size: 0.824em;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -369,7 +370,7 @@ body {
   clear: both;
   padding-bottom: 13px;
   font-family: Effra-Bold;
-  font-size: 55px;
+  font-size: 3.235em;
 }
 
 .address a {

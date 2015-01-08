@@ -1,7 +1,7 @@
 body {
   background-color: #ffffff;
-  font-family: Effra-Regular;
-  font-size: 17px;
+  font-family: effra;
+  font-size: 1.063em;
   font-weight: normal;
   line-height: 1.5;
   color: #5e5e6e;
@@ -39,6 +39,7 @@ body {
   width: 21.9733333333%;
   margin-top: 68px;
   padding-bottom: 5px;
+  font-size: 1em;
   line-height: 1.4;
   text-transform: uppercase;
   color: #5e5e6e;
@@ -88,8 +89,8 @@ body {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
-  font-family: Effra-Medium;
-  font-size: 16px;
+  font-size: 0.941em;
+  font-weight: 500;
   line-height: 1;
   color: #ffffff;
 }
@@ -105,7 +106,7 @@ body {
 
 .contact .content {
   padding-bottom: 5px;
-  font-size: 14px;
+  font-size: 0.824em;
   color: rgb(255, 255, 255);
 }
 
@@ -123,8 +124,8 @@ body {
   float: left;
   z-index: 1;
   margin-left: 30px;
-  font-family: Effra-Medium;
-  font-size: 14px;
+  font-size: 0.824em;
+  font-weight: 500;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
@@ -143,7 +144,7 @@ body {
 .function .contact {
   width: 100px;
   height: 46px;
-  margin-left: 12.58371%;
+  margin-left: 12.5837053571%;
   padding-top: 14px;
   padding-right: 14px;
   padding-bottom: 14px;
@@ -154,7 +155,7 @@ body {
   border-bottom-left-radius: 22px;
   background-color: rgb(255, 255, 255);
   font-family: Effra-Bold;
-  font-size: 12px;
+  font-size: 0.706em;
   line-height: 1.38;
   text-align: center;
   color: rgb(47, 62, 71);
@@ -173,10 +174,10 @@ body {
 .intro .content {
   width: 73.140625%;
   margin-top: 70px;
-  margin-left: 9.99271%;
+  margin-left: 9.9927083333%;
   padding-bottom: 20px;
-  font-family: Effra-Light;
-  font-size: 33px;
+  font-size: 1.941em;
+  font-weight: 300;
   color: #000233;
 }
 
@@ -219,7 +220,7 @@ body {
   border-bottom-left-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-family: Effra;
-  font-size: 14px;
+  font-size: 0.824em;
   font-weight: Bold;
   line-height: 1.38;
   text-align: center;
@@ -285,7 +286,7 @@ body {
   border-bottom-left-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-family: Effra-Bold;
-  font-size: 12px;
+  font-size: 0.706em;
   line-height: 1.38;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -316,6 +317,8 @@ body {
 
 .service .content {
   padding-bottom: 20px;
+  font-size: 1em;
+  font-weight: 400;
   line-height: 1.45;
   color: #5e5e6e;
 }
@@ -344,7 +347,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   font-family: Effra-Medium;
-  font-size: 14px;
+  font-size: 0.824em;
   line-height: 1.38;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -404,12 +407,24 @@ body {
   margin-left: 2.39896%;
 }
 
+.contact ._text {
+  color: #ffffff;
+}
+
+.intro ._text {
+  font-weight: 700;
+}
+
+.capabilities ._text,
+.leaadership ._text {
+  font-family: Effra-Bold;
+}
+
 .sep ._text {
   width: 80%;
   margin-left: 10%;
   padding-bottom: 30px;
-  font-family: Effra-Bold;
-  font-size: 14px;
+  font-size: 0.824em;
   line-height: 1.1;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -442,16 +457,19 @@ body {
   clear: both;
   z-index: 29;
   margin-left: 10%;
+  font-weight: 400;
 }
 
 .capabilities-3 {
   z-index: 28;
   margin-left: 5.49375%;
+  font-family: Effra-Regular;
 }
 
 .capabilities-4 {
   z-index: 27;
   margin-left: 5.49375%;
+  font-family: Effra-Regular;
 }
 
 .contact-2 {
@@ -476,6 +494,15 @@ body {
 
 .content-4 {
   margin-top: 20px;
+}
+
+.content-5 {
+  font-weight: 400;
+}
+
+.content-6,
+.content-7 {
+  font-family: Effra-Regular;
 }
 
 .just-a-line-6 {
@@ -515,7 +542,7 @@ body {
 ._text-17 {
   margin-left: 63px;
   font-family: Effra-Medium;
-  font-size: 14px;
+  font-size: 0.824em;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
@@ -526,7 +553,7 @@ body {
 ._text-18 {
   margin-left: 54px;
   font-family: Effra-Medium;
-  font-size: 14px;
+  font-size: 0.824em;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
@@ -538,8 +565,8 @@ body {
   display: block;
   margin-top: 400px;
   padding-bottom: 25px;
-  font-family: Effra-Medium;
-  font-size: 14px;
+  font-size: 0.824em;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -547,35 +574,46 @@ body {
 .banner ._text-2 {
   clear: both;
   padding-bottom: 13px;
-  font-family: Effra-Bold;
-  font-size: 55px;
+  font-size: 3.235em;
+  font-weight: 700;
 }
 
 .contact ._text-13 {
   margin-left: 10%;
   padding-bottom: 18px;
-  font-family: Effra;
-  font-size: 26px;
-  font-weight: Medium;
+  font-size: 1.529em;
+  font-weight: 500;
   line-height: 1.1;
-  color: #ffffff;
 }
 
-.contact ._text-14,
+.contact ._text-14 {
+  padding-bottom: 10px;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
 .contact ._text-15,
 .contact ._text-16 {
   padding-bottom: 10px;
   font-family: Effra-Medium;
+  font-size: 1em;
   line-height: 1.2;
-  color: rgb(255, 255, 255);
 }
 
-.service ._text-4,
+.service ._text-4 {
+  padding-bottom: 18px;
+  font-size: 1.529em;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #000244;
+}
+
 .service ._text-6,
 .service ._text-8 {
   padding-bottom: 18px;
   font-family: Effra-Medium;
-  font-size: 26px;
+  font-size: 1.529em;
   line-height: 1.1;
   color: #000244;
 }
@@ -585,8 +623,9 @@ body {
 .service ._text-9 {
   display: block;
   clear: both;
-  font-family: Effra-Italic;
-  font-size: 18px;
+  font-style: italic;
+  font-size: 1.059em;
+  font-weight: 500;
   line-height: 1;
   color: #939393;
 }

@@ -1,7 +1,7 @@
 body {
   background-color: #ffffff;
   font-family: Effra-Regular;
-  font-size: 17px;
+  font-size: 1.063em;
   font-weight: normal;
   line-height: 1.45;
   color: #5e5e6e;
@@ -54,7 +54,7 @@ body {
   width: 72.1562499999%;
   margin-left: 10.5%;
   padding-top: 18px;
-  font-size: 15px;
+  font-size: 0.882em;
   color: rgb(135, 135, 135);
 }
 
@@ -114,7 +114,7 @@ body {
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
   font-family: Effra-Medium;
-  font-size: 16px;
+  font-size: 0.941em;
   line-height: 1;
   color: #ffffff;
 }
@@ -143,7 +143,7 @@ body {
   z-index: 1;
   margin-left: 30px;
   font-family: Effra-Medium;
-  font-size: 14px;
+  font-size: 0.824em;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
@@ -173,7 +173,7 @@ body {
   border-bottom-left-radius: 22px;
   background-color: rgb(255, 255, 255);
   font-family: Effra-Bold;
-  font-size: 12px;
+  font-size: 0.706em;
   line-height: 1.38;
   text-align: center;
   color: rgb(47, 62, 71);
@@ -221,7 +221,7 @@ body {
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
   font-family: Effra-Bold;
-  font-size: 16px;
+  font-size: 0.941em;
   line-height: 1;
   color: #000244;
 }
@@ -270,7 +270,7 @@ body {
   border-bottom-left-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-family: Effra;
-  font-size: 14px;
+  font-size: 0.824em;
   font-weight: Bold;
   line-height: 1.38;
   text-align: center;
@@ -319,7 +319,7 @@ body {
   border-bottom-left-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-family: Effra-Bold;
-  font-size: 12px;
+  font-size: 0.706em;
   line-height: 1.38;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -327,7 +327,7 @@ body {
 
 .news {
   padding-bottom: 5px;
-  font-size: 14px;
+  font-size: 0.824em;
   line-height: 1.5;
   color: rgb(255, 255, 255);
 }
@@ -386,6 +386,7 @@ body {
 .solution .content {
   margin-top: 18px;
   padding-bottom: 25px;
+  font-size: 1em;
   color: #5e5e6e;
 }
 
@@ -404,7 +405,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   font-family: Effra-Medium;
-  font-size: 14px;
+  font-size: 0.824em;
   line-height: 1.38;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -464,7 +465,7 @@ body {
   margin-left: 10%;
   padding-bottom: 30px;
   font-family: Effra-Bold;
-  font-size: 14px;
+  font-size: 0.824em;
   line-height: 1.1;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -475,7 +476,7 @@ body {
 .solution ._text {
   padding-bottom: 18px;
   font-family: Effra-Bold;
-  font-size: 26px;
+  font-size: 1.529em;
   line-height: 1.1;
   color: #000244;
 }
@@ -622,7 +623,7 @@ body {
 ._text-11 {
   margin-left: 63px;
   font-family: Effra-Medium;
-  font-size: 14px;
+  font-size: 0.824em;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
@@ -633,7 +634,7 @@ body {
 ._text-12 {
   margin-left: 54px;
   font-family: Effra-Medium;
-  font-size: 14px;
+  font-size: 0.824em;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
@@ -647,7 +648,7 @@ body {
   margin-top: 400px;
   padding-bottom: 25px;
   font-family: Effra-Medium;
-  font-size: 14px;
+  font-size: 0.824em;
   line-height: 1.1;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -658,7 +659,7 @@ body {
   clear: both;
   padding-bottom: 13px;
   font-family: Effra-Bold;
-  font-size: 55px;
+  font-size: 3.235em;
   line-height: 1.1;
   color: rgb(255, 255, 255);
 }
@@ -668,7 +669,7 @@ body {
   width: 44.7666666666%;
   padding-bottom: 10px;
   font-family: Effra-Light;
-  font-size: 28px;
+  font-size: 1.647em;
   line-height: 1.4;
   color: rgb(195, 195, 195);
 }
@@ -678,6 +679,7 @@ body {
 .contact ._text-9 {
   padding-bottom: 10px;
   font-family: Effra-Medium;
+  font-size: 1em;
   line-height: 1.2;
   color: rgb(255, 255, 255);
 }
@@ -685,9 +687,9 @@ body {
 .contact ._text-7 {
   margin-left: 10%;
   padding-bottom: 18px;
-  font-family: Effra;
-  font-size: 26px;
-  font-weight: Medium;
+  font-family: effra;
+  font-size: 1.529em;
+  font-weight: 500;
   line-height: 1.1;
   color: #ffffff;
 }

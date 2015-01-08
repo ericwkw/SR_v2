@@ -1,7 +1,7 @@
 body {
   background-color: #ffffff;
   font-family: Effra-Medium;
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: normal;
   line-height: 1.2;
   color: rgb(255, 255, 255);
@@ -52,7 +52,7 @@ body {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
-  font-size: 16px;
+  font-size: 1.143em;
   line-height: 1;
   color: #ffffff;
 }
@@ -62,6 +62,7 @@ body {
   clear: both;
   padding-bottom: 5px;
   font-family: Effra-Regular;
+  font-size: 1em;
   line-height: 1.5;
   color: rgb(255, 255, 255);
 }
@@ -82,6 +83,7 @@ body {
   float: left;
   z-index: 1;
   margin-left: 30px;
+  font-size: 1em;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
@@ -111,7 +113,7 @@ body {
   border-bottom-left-radius: 22px;
   background-color: rgb(255, 255, 255);
   font-family: Effra-Bold;
-  font-size: 12px;
+  font-size: 0.857em;
   line-height: 1.38;
   text-align: center;
   color: rgb(47, 62, 71);
@@ -122,6 +124,7 @@ body {
   clear: both;
   padding-bottom: 5px;
   font-family: Effra;
+  font-size: 1em;
   font-weight: Regular;
   color: rgb(34, 34, 34);
 }
@@ -129,7 +132,7 @@ body {
 .job-title {
   float: left;
   padding-bottom: 10px;
-  font-size: 17px;
+  font-size: 1.214em;
   color: #333333;
 }
 
@@ -169,6 +172,7 @@ body {
   border-bottom-left-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-family: Effra;
+  font-size: 1em;
   font-weight: Bold;
   line-height: 1.38;
   text-align: center;
@@ -217,7 +221,7 @@ body {
   border-bottom-left-radius: 46px;
   background-color: rgb(47, 62, 71);
   font-family: Effra-Bold;
-  font-size: 12px;
+  font-size: 0.857em;
   line-height: 1.38;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -300,6 +304,7 @@ body {
   right: 0;
   margin-right: auto;
   margin-left: auto;
+  font-size: 1em;
   line-height: 1.38;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -406,6 +411,7 @@ body {
 
 ._text-7 {
   margin-left: 63px;
+  font-size: 1em;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
@@ -415,6 +421,7 @@ body {
 
 ._text-8 {
   margin-left: 54px;
+  font-size: 1em;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
@@ -426,6 +433,7 @@ body {
   display: block;
   margin-top: 400px;
   padding-bottom: 25px;
+  font-size: 1em;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -434,15 +442,15 @@ body {
   clear: both;
   padding-bottom: 13px;
   font-family: Effra-Bold;
-  font-size: 55px;
+  font-size: 3.929em;
 }
 
 .contact ._text-3 {
   margin-left: 10%;
   padding-bottom: 18px;
-  font-family: Effra;
-  font-size: 26px;
-  font-weight: Medium;
+  font-family: effra;
+  font-size: 1.857em;
+  font-weight: 500;
   line-height: 1.1;
   color: #ffffff;
 }
@@ -451,7 +459,7 @@ body {
 .contact ._text-5,
 .contact ._text-6 {
   padding-bottom: 10px;
-  font-size: 17px;
+  font-size: 1.214em;
   color: rgb(255, 255, 255);
 }
 
